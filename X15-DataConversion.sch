@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
-<layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
-<layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
-<layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
-<layer number="6" name="Route6" color="25" fill="1" visible="no" active="no"/>
-<layer number="7" name="Route7" color="26" fill="1" visible="no" active="no"/>
-<layer number="8" name="Route8" color="27" fill="1" visible="no" active="no"/>
-<layer number="9" name="Route9" color="28" fill="1" visible="no" active="no"/>
-<layer number="10" name="Route10" color="29" fill="1" visible="no" active="no"/>
-<layer number="11" name="Route11" color="30" fill="1" visible="no" active="no"/>
-<layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
-<layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
-<layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
-<layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,20 +53,20 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="58" name="bCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="58" name="bCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -2434,7 +2434,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 </deviceset>
 </devicesets>
 </library>
-<library name="CAN Tranceiver">
+<library name="IC,MAX3058ASA+">
 <packages>
 <package name="MAX3058ASA+">
 <smd name="TXD" x="0" y="0" dx="1.05" dy="0.42" layer="1"/>
@@ -2496,6 +2496,70 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="ECS-80-18-30-JGN-TR">
+<packages>
+<package name="XTAL_ECS-80-18-30-JGN-TR">
+<wire x1="2.5" y1="-1.6" x2="2.5" y2="1.6" width="0.127" layer="51"/>
+<wire x1="-2.5" y1="1.6" x2="-2.5" y2="-1.6" width="0.127" layer="51"/>
+<wire x1="3.25" y1="1.85" x2="-3.25" y2="1.85" width="0.05" layer="39"/>
+<wire x1="-3.25" y1="1.85" x2="-3.25" y2="-1.85" width="0.05" layer="39"/>
+<wire x1="-3.25" y1="-1.85" x2="3.25" y2="-1.85" width="0.05" layer="39"/>
+<wire x1="3.25" y1="-1.85" x2="3.25" y2="1.85" width="0.05" layer="39"/>
+<text x="-3.71928125" y="2.11228125" size="1.27743125" layer="25">&gt;NAME</text>
+<text x="-3.71308125" y="-3.4622" size="1.274490625" layer="27">&gt;VALUE</text>
+<wire x1="-2.5" y1="-1.6" x2="2.5" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="2.5" y1="1.6" x2="-2.5" y2="1.6" width="0.127" layer="21"/>
+<wire x1="2.5" y1="1.6" x2="-2.5" y2="1.6" width="0.127" layer="51"/>
+<wire x1="-2.5" y1="-1.6" x2="2.5" y2="-1.6" width="0.127" layer="51"/>
+<circle x="-4" y="0" radius="0.14141875" width="0.3" layer="21"/>
+<circle x="-4" y="0" radius="0.14141875" width="0.3" layer="51"/>
+<smd name="1" x="-2.05" y="0" dx="1.9" dy="2.4" layer="1"/>
+<smd name="2" x="2.05" y="0" dx="1.9" dy="2.4" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="ECS-80-18-30-JGN-TR">
+<wire x1="1.016" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.016" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.381" y1="1.524" x2="-0.381" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="-0.381" y1="-1.524" x2="0.381" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="0.381" y1="-1.524" x2="0.381" y2="1.524" width="0.254" layer="94"/>
+<wire x1="0.381" y1="1.524" x2="-0.381" y2="1.524" width="0.254" layer="94"/>
+<wire x1="1.016" y1="1.778" x2="1.016" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="1.778" x2="-1.016" y2="-1.778" width="0.254" layer="94"/>
+<text x="-5.09256875" y="2.295540625" size="1.78543125" layer="95">&gt;NAME</text>
+<text x="-5.09493125" y="-3.82355" size="1.78431875" layer="96">&gt;VALUE</text>
+<pin name="OUT/IN" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="IN/OUT" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ECS-80-18-30-JGN-TR" prefix="Y">
+<description>SMD Crystal with a 3.2 x 5 mm footprint </description>
+<gates>
+<gate name="G$1" symbol="ECS-80-18-30-JGN-TR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="XTAL_ECS-80-18-30-JGN-TR">
+<connects>
+<connect gate="G$1" pin="IN/OUT" pad="1"/>
+<connect gate="G$1" pin="OUT/IN" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value=" 8 MHz ±20ppm Crystal 18pF 100 Ohms 2-SMD, No Lead "/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="XC2103TR-ND"/>
+<attribute name="MF" value="ECS Inc."/>
+<attribute name="MP" value="ECS-80-18-30-JGN-TR"/>
+<attribute name="PACKAGE" value="SMD-2 ECS International"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/ECS-80-18-30-JGN-TR/?ref=eda"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2530,7 +2594,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="CONNECTOR1" library="CONN, Serial Wire Programming Headers" deviceset="SWD_CONN" device="" value="3V3 -SWCLK-GND-SWDIO- NRST"/>
 <part name="U$1" library="CONN, DataConversion-Backplane Connector- SAMTEC CLT-107-01-T-D" deviceset="DATACONV-&gt;BACKPLANE" device=""/>
-<part name="CAN_TRANCEIVER" library="CAN Tranceiver" deviceset="MAX3058ASA+" device=""/>
+<part name="CAN_TRANCEIVER" library="IC,MAX3058ASA+" deviceset="MAX3058ASA+" device=""/>
 <part name="C6" library="SparkFun-RF" deviceset="0.1UF" device="-0603-25V-5%" value="0.1uF"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -2538,6 +2602,11 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <part name="R6" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="120"/>
 <part name="R7" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="120"/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="R9" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="1.5k"/>
+<part name="C7" library="SparkFun-RF" deviceset="0.1UF" device="-0603-25V-5%" value="18pF"/>
+<part name="C8" library="SparkFun-RF" deviceset="0.1UF" device="-0603-25V-5%" value="18pF"/>
+<part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="Y1" library="ECS-80-18-30-JGN-TR" deviceset="ECS-80-18-30-JGN-TR" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2545,6 +2614,9 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <text x="15.24" y="86.36" size="1.778" layer="91">Power Indication LED</text>
 <text x="180.34" y="104.14" size="1.778" layer="91">Connectors</text>
 <text x="71.12" y="73.66" size="1.778" layer="91">CAN</text>
+<text x="91.44" y="73.66" size="0.508" layer="91">RS to ground for high-speed mode (1Mbps with shielded twisted-pair cable)
+RS to resistor to ground for slope-control mode (resistor value affects slew rates)</text>
+<text x="139.7" y="63.5" size="1.778" layer="91">Oscillator</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
@@ -2661,6 +2733,25 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <instance part="GND10" gate="1" x="101.6" y="66.04" smashed="yes" rot="R90">
 <attribute name="VALUE" x="104.14" y="63.5" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="R9" gate="G$1" x="147.32" y="40.64" smashed="yes" rot="R90">
+<attribute name="NAME" x="145.796" y="40.64" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="148.844" y="40.64" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+</instance>
+<instance part="C7" gate="G$1" x="137.16" y="22.86" smashed="yes">
+<attribute name="NAME" x="138.684" y="25.781" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="138.684" y="20.701" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="C8" gate="G$1" x="147.32" y="22.86" smashed="yes">
+<attribute name="NAME" x="148.844" y="25.781" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="148.844" y="20.701" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="GND11" gate="1" x="142.24" y="12.7" smashed="yes">
+<attribute name="VALUE" x="139.7" y="10.16" size="1.778" layer="96"/>
+</instance>
+<instance part="Y1" gate="G$1" x="142.24" y="33.02" smashed="yes">
+<attribute name="NAME" x="137.14743125" y="35.315540625" size="1.78543125" layer="95"/>
+<attribute name="VALUE" x="137.14506875" y="29.19645" size="1.78431875" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -2762,6 +2853,17 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <pinref part="CAN_TRANCEIVER" gate="G$1" pin="RS"/>
 <pinref part="GND10" gate="1" pin="GND"/>
 <wire x1="93.98" y1="66.04" x2="99.06" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C7" gate="G$1" pin="2"/>
+<wire x1="137.16" y1="20.32" x2="137.16" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="17.78" x2="142.24" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="C8" gate="G$1" pin="2"/>
+<wire x1="142.24" y1="17.78" x2="147.32" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="17.78" x2="147.32" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="17.78" x2="142.24" y2="15.24" width="0.1524" layer="91"/>
+<junction x="142.24" y="17.78"/>
+<pinref part="GND11" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="NRST" class="0">
@@ -3052,12 +3154,53 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <label x="99.06" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="OSC_IN" class="0">
+<segment>
+<pinref part="STM" gate="G$1" pin="PF0-OSC_IN"/>
+<wire x1="78.74" y1="139.7" x2="68.58" y2="139.7" width="0.1524" layer="91"/>
+<label x="58.42" y="139.7" size="1.778" layer="95"/>
+</segment>
+<segment>
+<label x="137.16" y="48.26" size="1.778" layer="95" rot="R90"/>
+<wire x1="137.16" y1="27.94" x2="137.16" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="C7" gate="G$1" pin="1"/>
+<pinref part="Y1" gate="G$1" pin="IN/OUT"/>
+<wire x1="137.16" y1="33.02" x2="137.16" y2="50.8" width="0.1524" layer="91"/>
+<junction x="137.16" y="33.02"/>
+</segment>
+</net>
+<net name="OSC_OUT" class="0">
+<segment>
+<pinref part="STM" gate="G$1" pin="PF1-OSC_OUT"/>
+<wire x1="78.74" y1="134.62" x2="68.58" y2="134.62" width="0.1524" layer="91"/>
+<label x="55.88" y="134.62" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R9" gate="G$1" pin="2"/>
+<wire x1="147.32" y1="45.72" x2="147.32" y2="50.8" width="0.1524" layer="91"/>
+<label x="147.32" y="48.26" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="C8" gate="G$1" pin="1"/>
+<pinref part="R9" gate="G$1" pin="1"/>
+<wire x1="147.32" y1="27.94" x2="147.32" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="Y1" gate="G$1" pin="OUT/IN"/>
+<wire x1="147.32" y1="33.02" x2="147.32" y2="35.56" width="0.1524" layer="91"/>
+<junction x="147.32" y="33.02"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
