@@ -2496,29 +2496,41 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 </deviceset>
 </devicesets>
 </library>
-<library name="ECS-80-18-30-JGN-TR">
+<library name="ECS-80-18-4X">
 <packages>
-<package name="XTAL_ECS-80-18-30-JGN-TR">
-<wire x1="2.5" y1="-1.6" x2="2.5" y2="1.6" width="0.127" layer="51"/>
-<wire x1="-2.5" y1="1.6" x2="-2.5" y2="-1.6" width="0.127" layer="51"/>
-<wire x1="3.25" y1="1.85" x2="-3.25" y2="1.85" width="0.05" layer="39"/>
-<wire x1="-3.25" y1="1.85" x2="-3.25" y2="-1.85" width="0.05" layer="39"/>
-<wire x1="-3.25" y1="-1.85" x2="3.25" y2="-1.85" width="0.05" layer="39"/>
-<wire x1="3.25" y1="-1.85" x2="3.25" y2="1.85" width="0.05" layer="39"/>
-<text x="-3.71928125" y="2.11228125" size="1.27743125" layer="25">&gt;NAME</text>
-<text x="-3.71308125" y="-3.4622" size="1.274490625" layer="27">&gt;VALUE</text>
-<wire x1="-2.5" y1="-1.6" x2="2.5" y2="-1.6" width="0.127" layer="21"/>
-<wire x1="2.5" y1="1.6" x2="-2.5" y2="1.6" width="0.127" layer="21"/>
-<wire x1="2.5" y1="1.6" x2="-2.5" y2="1.6" width="0.127" layer="51"/>
-<wire x1="-2.5" y1="-1.6" x2="2.5" y2="-1.6" width="0.127" layer="51"/>
-<circle x="-4" y="0" radius="0.14141875" width="0.3" layer="21"/>
-<circle x="-4" y="0" radius="0.14141875" width="0.3" layer="51"/>
-<smd name="1" x="-2.05" y="0" dx="1.9" dy="2.4" layer="1"/>
-<smd name="2" x="2.05" y="0" dx="1.9" dy="2.4" layer="1"/>
+<package name="XTAL_ECS-80-18-4X">
+<wire x1="5.675" y1="1.01" x2="5.675" y2="-1.01" width="0.127" layer="51"/>
+<wire x1="5.675" y1="-1.01" x2="4.405" y2="-2.33" width="0.127" layer="51" curve="-90"/>
+<wire x1="4.405" y1="-2.33" x2="-4.405" y2="-2.33" width="0.127" layer="51"/>
+<wire x1="-4.405" y1="-2.33" x2="-5.675" y2="-1.01" width="0.127" layer="51" curve="-90"/>
+<wire x1="-5.675" y1="-1.01" x2="-5.675" y2="1.01" width="0.127" layer="51"/>
+<wire x1="-5.675" y1="1.01" x2="-4.405" y2="2.33" width="0.127" layer="51" curve="-90"/>
+<wire x1="-4.405" y1="2.33" x2="4.405" y2="2.33" width="0.127" layer="51"/>
+<wire x1="4.405" y1="2.33" x2="5.675" y2="1.01" width="0.127" layer="51" curve="-90"/>
+<wire x1="5.675" y1="1.01" x2="5.675" y2="-1.01" width="0.127" layer="21"/>
+<wire x1="5.675" y1="-1.01" x2="4.405" y2="-2.33" width="0.127" layer="21" curve="-90"/>
+<wire x1="4.405" y1="-2.33" x2="-4.405" y2="-2.33" width="0.127" layer="21"/>
+<wire x1="-4.405" y1="-2.33" x2="-5.675" y2="-1.01" width="0.127" layer="21" curve="-90"/>
+<wire x1="-5.675" y1="-1.01" x2="-5.675" y2="1.01" width="0.127" layer="21"/>
+<wire x1="-5.675" y1="1.01" x2="-4.405" y2="2.33" width="0.127" layer="21" curve="-90"/>
+<wire x1="-4.405" y1="2.33" x2="4.405" y2="2.33" width="0.127" layer="21"/>
+<wire x1="4.405" y1="2.33" x2="5.675" y2="1.01" width="0.127" layer="21" curve="-90"/>
+<wire x1="6" y1="1.01" x2="6" y2="-1.01" width="0.05" layer="39"/>
+<wire x1="6" y1="-1.01" x2="4.43" y2="-2.58" width="0.05" layer="39" curve="-90"/>
+<wire x1="4.43" y1="-2.58" x2="-4.43" y2="-2.58" width="0.05" layer="39"/>
+<wire x1="-4.43" y1="-2.58" x2="-6" y2="-1.01" width="0.05" layer="39" curve="-90"/>
+<wire x1="-6" y1="-1.01" x2="-6" y2="1.01" width="0.05" layer="39"/>
+<wire x1="-6" y1="1.01" x2="-4.43" y2="2.58" width="0.05" layer="39" curve="-90"/>
+<wire x1="-4.43" y1="2.58" x2="4.43" y2="2.58" width="0.05" layer="39"/>
+<wire x1="4.43" y1="2.58" x2="6" y2="1.01" width="0.05" layer="39" curve="-90"/>
+<text x="-5.774659375" y="3.00241875" size="1.27103125" layer="25">&gt;NAME</text>
+<text x="-5.78111875" y="-4.38543125" size="1.27245" layer="27">&gt;VALUE</text>
+<pad name="1" x="-2.44" y="0" drill="0.63" diameter="1.03"/>
+<pad name="2" x="2.44" y="0" drill="0.63" diameter="1.03"/>
 </package>
 </packages>
 <symbols>
-<symbol name="ECS-80-18-30-JGN-TR">
+<symbol name="ECS-80-18-4X">
 <wire x1="1.016" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
 <wire x1="-2.54" y1="0" x2="-1.016" y2="0" width="0.1524" layer="94"/>
 <wire x1="-0.381" y1="1.524" x2="-0.381" y2="-1.524" width="0.254" layer="94"/>
@@ -2527,32 +2539,32 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <wire x1="0.381" y1="1.524" x2="-0.381" y2="1.524" width="0.254" layer="94"/>
 <wire x1="1.016" y1="1.778" x2="1.016" y2="-1.778" width="0.254" layer="94"/>
 <wire x1="-1.016" y1="1.778" x2="-1.016" y2="-1.778" width="0.254" layer="94"/>
-<text x="-5.09256875" y="2.295540625" size="1.78543125" layer="95">&gt;NAME</text>
-<text x="-5.09493125" y="-3.82355" size="1.78431875" layer="96">&gt;VALUE</text>
-<pin name="OUT/IN" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<pin name="IN/OUT" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<text x="-4.57693125" y="2.288459375" size="1.77991875" layer="95">&gt;NAME</text>
+<text x="-4.32303125" y="-4.57733125" size="1.78006875" layer="96">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ECS-80-18-30-JGN-TR" prefix="Y">
-<description>SMD Crystal with a 3.2 x 5 mm footprint </description>
+<deviceset name="ECS-80-18-4X" prefix="Y">
+<description>CRYSTAL T/H </description>
 <gates>
-<gate name="G$1" symbol="ECS-80-18-30-JGN-TR" x="0" y="0"/>
+<gate name="G$1" symbol="ECS-80-18-4X" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="XTAL_ECS-80-18-30-JGN-TR">
+<device name="" package="XTAL_ECS-80-18-4X">
 <connects>
-<connect gate="G$1" pin="IN/OUT" pad="1"/>
-<connect gate="G$1" pin="OUT/IN" pad="2"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value=" 8 MHz ±20ppm Crystal 18pF 100 Ohms 2-SMD, No Lead "/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="XC2103TR-ND"/>
+<attribute name="DESCRIPTION" value=" 8 MHz ±30ppm Crystal 18pF 80 Ohms HC-49/US "/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="X1093-ND"/>
 <attribute name="MF" value="ECS Inc."/>
-<attribute name="MP" value="ECS-80-18-30-JGN-TR"/>
-<attribute name="PACKAGE" value="SMD-2 ECS International"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/ECS-80-18-30-JGN-TR/?ref=eda"/>
+<attribute name="MP" value="ECS-80-18-4X"/>
+<attribute name="PACKAGE" value="HC-49US ECS Inc."/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/ECS-80-18-4X/?ref=eda"/>
 </technology>
 </technologies>
 </device>
@@ -2606,7 +2618,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <part name="C7" library="SparkFun-RF" deviceset="0.1UF" device="-0603-25V-5%" value="18pF"/>
 <part name="C8" library="SparkFun-RF" deviceset="0.1UF" device="-0603-25V-5%" value="18pF"/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Y1" library="ECS-80-18-30-JGN-TR" deviceset="ECS-80-18-30-JGN-TR" device=""/>
+<part name="Y1" library="ECS-80-18-4X" deviceset="ECS-80-18-4X" device=""/>
 <part name="R8" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="0"/>
 </parts>
 <sheets>
@@ -3171,7 +3183,7 @@ RS to resistor to ground for slope-control mode (resistor value affects slew rat
 <segment>
 <wire x1="137.16" y1="27.94" x2="137.16" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="1"/>
-<pinref part="Y1" gate="G$1" pin="IN/OUT"/>
+<pinref part="Y1" gate="G$1" pin="1"/>
 <pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="137.16" y1="33.02" x2="137.16" y2="35.56" width="0.1524" layer="91"/>
 <junction x="137.16" y="33.02"/>
@@ -3199,7 +3211,7 @@ RS to resistor to ground for slope-control mode (resistor value affects slew rat
 <pinref part="C8" gate="G$1" pin="1"/>
 <pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="147.32" y1="27.94" x2="147.32" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="Y1" gate="G$1" pin="OUT/IN"/>
+<pinref part="Y1" gate="G$1" pin="2"/>
 <wire x1="147.32" y1="33.02" x2="147.32" y2="35.56" width="0.1524" layer="91"/>
 <junction x="147.32" y="33.02"/>
 </segment>
