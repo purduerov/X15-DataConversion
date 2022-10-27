@@ -848,10 +848,10 @@ maxErrors = 50
 <attribute name="PROD_ID" value=" " x="14.03" y="17.36" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="13.268" y="17.36" size="0.6096" layer="28" font="vector" ratio="20" rot="MR90" align="top-center"/>
 </element>
-<element name="R4" library="SparkFun-Resistors" package="0603" value="470" x="10.985" y="4.97" smashed="yes">
-<attribute name="NAME" x="10.985" y="5.732" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value=" " x="10.985" y="4.97" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="10.985" y="4.208" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<element name="R4" library="SparkFun-Resistors" package="0603" value="470" x="9.985" y="4.97" smashed="yes">
+<attribute name="NAME" x="9.985" y="5.732" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value=" " x="9.985" y="4.97" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="9.985" y="4.208" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="C2" library="SparkFun-RF" package="0603" value="4.7uF" x="3.019" y="6.381" smashed="yes">
 <attribute name="NAME" x="3.019" y="6.643" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
@@ -873,10 +873,10 @@ maxErrors = 50
 <attribute name="PROD_ID" value="CAP-08604" x="2.8" y="7.955" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VALUE" x="2.8" y="8.717" size="0.6096" layer="28" font="vector" ratio="20" rot="MR180" align="top-center"/>
 </element>
-<element name="D1" library="SparkFun-LED" package="LED-0603" value="Green" x="14.36" y="5.045" smashed="yes">
-<attribute name="NAME" x="14.36" y="5.68" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="DIO-16512" x="14.36" y="5.045" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="14.36" y="4.41" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<element name="D1" library="SparkFun-LED" package="LED-0603" value="Green" x="13.64" y="4.955" smashed="yes" rot="R180">
+<attribute name="NAME" x="13.64" y="4.32" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-16512" x="13.64" y="4.955" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="13.64" y="5.59" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="S1" library="SparkFun-Switches" package="TACTILE_SWITCH_SMD_6.0X3.5MM" value="MOMENTARY-SWITCH-SPST-SMD-6.0X3.5MM" x="18.6" y="2.285" smashed="yes" rot="R180">
 <attribute name="NAME" x="18.6" y="0.38" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
@@ -1016,7 +1016,7 @@ maxErrors = 50
 <signal name="N$6">
 <contactref element="STM" pad="PB1"/>
 <contactref element="R2" pad="1"/>
-<wire x1="10.913" y1="15.076" x2="12.215" y2="16.51" width="0" layer="19" extent="1-16"/>
+<wire x1="12.215" y1="16.51" x2="10.913" y2="15.076" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$7">
 <contactref element="STM" pad="PB0"/>
@@ -1026,24 +1026,22 @@ maxErrors = 50
 <signal name="C2_2">
 <contactref element="R2" pad="2"/>
 <contactref element="U$1" pad="7"/>
-<wire x1="8.753" y1="22.85" x2="12.215" y2="18.21" width="0" layer="19" extent="16-16"/>
+<wire x1="12.215" y1="18.21" x2="8.753" y2="22.85" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="C2_1">
 <contactref element="R3" pad="2"/>
 <contactref element="U$1" pad="9"/>
-<wire x1="10.753" y1="22.85" x2="14.03" y2="18.21" width="0" layer="19" extent="16-16"/>
+<wire x1="14.03" y1="18.21" x2="10.753" y2="22.85" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="LED">
 <contactref element="STM" pad="PA15"/>
 <contactref element="R4" pad="1"/>
-<wire x1="10.135" y1="4.97" x2="10.135" y2="6.554" width="0.254" layer="1"/>
-<wire x1="10.135" y1="6.554" x2="10.113" y2="6.576" width="0.254" layer="1"/>
+<wire x1="9.135" y1="4.97" x2="10.113" y2="6.576" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$11">
 <contactref element="D1" pad="A"/>
 <contactref element="R4" pad="2"/>
-<wire x1="11.835" y1="4.97" x2="11.91" y2="5.045" width="0.254" layer="1"/>
-<wire x1="11.91" y1="5.045" x2="13.483" y2="5.045" width="0.254" layer="1"/>
+<wire x1="10.835" y1="4.97" x2="14.517" y2="4.955" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="3.3V">
 <contactref element="STM" pad="VDDA"/>
@@ -1112,27 +1110,15 @@ maxErrors = 50
 <contactref element="STM" pad="PA14"/>
 <contactref element="CONNECTOR1" pad="2"/>
 <contactref element="U$1" pad="8"/>
-<wire x1="4.699" y1="2.032" x2="6" y2="3.333" width="0.254" layer="1"/>
-<wire x1="6" y1="3.333" x2="6" y2="7" width="0.254" layer="1"/>
-<wire x1="6" y1="7" x2="7.026" y2="8.026" width="0.254" layer="1"/>
-<wire x1="7.026" y1="8.026" x2="8.663" y2="8.026" width="0.254" layer="1"/>
 <wire x1="8.663" y1="8.026" x2="8.753" y2="20.85" width="0" layer="19" extent="1-1"/>
+<wire x1="4.699" y1="2.032" x2="8.663" y2="8.026" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SWDIO">
 <contactref element="STM" pad="PA13"/>
 <contactref element="CONNECTOR1" pad="4"/>
 <contactref element="U$1" pad="6"/>
-<wire x1="6.753" y1="20.85" x2="6.753" y2="19.747" width="0.254" layer="16"/>
-<wire x1="8.5" y1="3.311" x2="9.779" y2="2.032" width="0.254" layer="16"/>
-<wire x1="6.753" y1="19.747" x2="8.5" y2="18" width="0.254" layer="16"/>
-<wire x1="8.5" y1="18" x2="8.5" y2="9" width="0.254" layer="16"/>
-<wire x1="8.5" y1="9" x2="8.5" y2="3.311" width="0.254" layer="16"/>
-<wire x1="8.5" y1="9" x2="8.375" y2="8.875" width="0.254" layer="16"/>
-<wire x1="7.0924" y1="8.875" x2="7" y2="8.9674" width="0.254" layer="16"/>
-<via x="7" y="8.9674" extent="1-16" drill="0.35"/>
-<wire x1="7" y1="8.9674" x2="8.5216" y2="8.9674" width="0.254" layer="1"/>
-<wire x1="8.5216" y1="8.9674" x2="8.663" y2="8.826" width="0.254" layer="1"/>
-<wire x1="8.375" y1="8.875" x2="7.0924" y2="8.875" width="0.254" layer="16"/>
+<wire x1="8.663" y1="8.826" x2="6.753" y2="20.85" width="0" layer="19" extent="1-1"/>
+<wire x1="9.779" y1="2.032" x2="8.663" y2="8.826" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CAN_TX">
 <contactref element="STM" pad="PA12"/>
@@ -1194,8 +1180,10 @@ maxErrors = 50
 <wire x1="7.75" y1="15.625" x2="8.562" y2="15.625" width="0.254" layer="1"/>
 <wire x1="6.625" y1="14" x2="7.125" y2="14" width="0.254" layer="1"/>
 <wire x1="7.375" y1="14.25" x2="7.375" y2="15.25" width="0.254" layer="1"/>
-<wire x1="8.562" y1="15.625" x2="12.753" y2="22.85" width="0" layer="19" extent="1-1"/>
-<wire x1="8.475" y1="15.587" x2="8.562" y2="15.625" width="0" layer="19" extent="1-1"/>
+<wire x1="8.475" y1="15.587" x2="9.462" y2="15.587" width="0.254" layer="1"/>
+<wire x1="9.462" y1="15.587" x2="9.5" y2="15.625" width="0.254" layer="1"/>
+<wire x1="9.5" y1="15.625" x2="12.753" y2="22.85" width="0" layer="19" extent="1-1"/>
+<wire x1="8.562" y1="15.625" x2="8.475" y2="15.587" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CAN_H">
 <contactref element="U$1" pad="10"/>
@@ -1227,10 +1215,8 @@ maxErrors = 50
 <contactref element="STM" pad="PF1-OSC_OUT"/>
 <contactref element="R8" pad="2"/>
 <wire x1="17.163" y1="9.626" x2="17.163" y2="9.625" width="0.254" layer="1"/>
-<wire x1="18.5" y1="9.625" x2="18.875" y2="10" width="0.254" layer="1"/>
-<wire x1="18.875" y1="10" x2="18.875" y2="10.9578" width="0.254" layer="1"/>
-<wire x1="18.875" y1="10.9578" x2="18.8466" y2="10.9862" width="0.254" layer="1"/>
-<wire x1="17.163" y1="9.625" x2="18.5" y2="9.625" width="0.254" layer="1"/>
+<wire x1="17.163" y1="9.625" x2="18" y2="9.625" width="0.254" layer="1"/>
+<wire x1="18" y1="9.625" x2="18.8466" y2="10.9862" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="Y1" pad="1"/>
