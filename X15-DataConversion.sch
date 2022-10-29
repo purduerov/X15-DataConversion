@@ -2545,6 +2545,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <part name="R8" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="0"/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="R10" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="30k"/>
 </parts>
 <sheets>
 <sheet>
@@ -2690,8 +2691,12 @@ RS to resistor to ground for slope-control mode (resistor value affects slew rat
 <instance part="GND9" gate="1" x="99.06" y="40.64" smashed="yes">
 <attribute name="VALUE" x="96.52" y="38.1" size="1.778" layer="96"/>
 </instance>
-<instance part="GND10" gate="1" x="101.6" y="66.04" smashed="yes" rot="R90">
-<attribute name="VALUE" x="104.14" y="63.5" size="1.778" layer="96" rot="R90"/>
+<instance part="GND10" gate="1" x="111.76" y="66.04" smashed="yes" rot="R90">
+<attribute name="VALUE" x="114.3" y="63.5" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R10" gate="G$1" x="101.6" y="66.04" smashed="yes">
+<attribute name="NAME" x="101.6" y="67.564" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="101.6" y="64.516" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -2795,9 +2800,9 @@ RS to resistor to ground for slope-control mode (resistor value affects slew rat
 <wire x1="127" y1="93.98" x2="127" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 <segment>
+<pinref part="R10" gate="G$1" pin="2"/>
 <pinref part="GND10" gate="1" pin="GND"/>
-<pinref part="CAN_TRANCEIVER" gate="G$1" pin="RS"/>
-<wire x1="99.06" y1="66.04" x2="93.98" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="66.04" x2="109.22" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="NRST" class="0">
@@ -3135,6 +3140,13 @@ RS to resistor to ground for slope-control mode (resistor value affects slew rat
 <pinref part="C8" gate="G$1" pin="1"/>
 <wire x1="147.32" y1="27.94" x2="147.32" y2="33.02" width="0.1524" layer="91"/>
 <junction x="147.32" y="33.02"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="CAN_TRANCEIVER" gate="G$1" pin="RS"/>
+<pinref part="R10" gate="G$1" pin="1"/>
+<wire x1="93.98" y1="66.04" x2="96.52" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
