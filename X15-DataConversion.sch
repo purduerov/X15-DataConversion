@@ -2537,7 +2537,6 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R6" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="120"/>
 <part name="R7" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="120"/>
-<part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R9" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="0"/>
 <part name="C7" library="SparkFun-RF" deviceset="0.1UF" device="-0603-25V-5%" value="18pF"/>
 <part name="C8" library="SparkFun-RF" deviceset="0.1UF" device="-0603-25V-5%" value="18pF"/>
@@ -2545,6 +2544,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <part name="Y1" library="X15-Data-Conversion-Parts" deviceset="ECS-80-18-4X" device=""/>
 <part name="R8" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="0"/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2665,9 +2665,6 @@ RS to resistor to ground for slope-control mode (resistor value affects slew rat
 <attribute name="NAME" x="111.76" y="49.784" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="111.76" y="46.736" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="GND10" gate="1" x="101.6" y="66.04" smashed="yes" rot="R90">
-<attribute name="VALUE" x="104.14" y="63.5" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="R9" gate="G$1" x="147.32" y="40.64" smashed="yes" rot="R90">
 <attribute name="NAME" x="145.796" y="40.64" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="148.844" y="40.64" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
@@ -2693,6 +2690,9 @@ RS to resistor to ground for slope-control mode (resistor value affects slew rat
 <instance part="GND9" gate="1" x="99.06" y="40.64" smashed="yes">
 <attribute name="VALUE" x="96.52" y="38.1" size="1.778" layer="96"/>
 </instance>
+<instance part="GND10" gate="1" x="101.6" y="66.04" smashed="yes" rot="R90">
+<attribute name="VALUE" x="104.14" y="63.5" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -2717,11 +2717,6 @@ RS to resistor to ground for slope-control mode (resistor value affects slew rat
 <wire x1="93.98" y1="154.94" x2="93.98" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="165.1" x2="88.9" y2="165.1" width="0.1524" layer="91"/>
 <junction x="88.9" y="165.1"/>
-</segment>
-<segment>
-<pinref part="GND3" gate="1" pin="GND"/>
-<pinref part="STM" gate="G$1" pin="VSS_2"/>
-<wire x1="127" y1="93.98" x2="127" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND5" gate="1" pin="GND"/>
@@ -2778,11 +2773,6 @@ RS to resistor to ground for slope-control mode (resistor value affects slew rat
 <pinref part="GND8" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="CAN_TRANCEIVER" gate="G$1" pin="RS"/>
-<pinref part="GND10" gate="1" pin="GND"/>
-<wire x1="93.98" y1="66.04" x2="99.06" y2="66.04" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="C7" gate="G$1" pin="2"/>
 <wire x1="137.16" y1="20.32" x2="137.16" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="17.78" x2="142.24" y2="17.78" width="0.1524" layer="91"/>
@@ -2798,6 +2788,16 @@ RS to resistor to ground for slope-control mode (resistor value affects slew rat
 <wire x1="93.98" y1="50.8" x2="99.06" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="50.8" x2="99.06" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="GND9" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="GND3" gate="1" pin="GND"/>
+<pinref part="STM" gate="G$1" pin="VSS_2"/>
+<wire x1="127" y1="93.98" x2="127" y2="99.06" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND10" gate="1" pin="GND"/>
+<pinref part="CAN_TRANCEIVER" gate="G$1" pin="RS"/>
+<wire x1="99.06" y1="66.04" x2="93.98" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="NRST" class="0">
@@ -2880,7 +2880,7 @@ RS to resistor to ground for slope-control mode (resistor value affects slew rat
 <wire x1="144.78" y1="167.64" x2="137.16" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="3.3V" class="0">
+<net name="3V3" class="0">
 <segment>
 <pinref part="STM" gate="G$1" pin="VDDA"/>
 <wire x1="78.74" y1="121.92" x2="68.58" y2="121.92" width="0.1524" layer="91"/>
@@ -3097,6 +3097,7 @@ RS to resistor to ground for slope-control mode (resistor value affects slew rat
 <segment>
 <pinref part="STM" gate="G$1" pin="PF0-OSC_IN"/>
 <wire x1="78.74" y1="139.7" x2="68.58" y2="139.7" width="0.1524" layer="91"/>
+<label x="58.42" y="139.7" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R9" gate="G$1" pin="2"/>
@@ -3108,6 +3109,7 @@ RS to resistor to ground for slope-control mode (resistor value affects slew rat
 <segment>
 <pinref part="STM" gate="G$1" pin="PF1-OSC_OUT"/>
 <wire x1="78.74" y1="134.62" x2="68.58" y2="134.62" width="0.1524" layer="91"/>
+<label x="53.34" y="134.62" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R8" gate="G$1" pin="2"/>
