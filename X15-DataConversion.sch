@@ -2550,11 +2550,9 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <sheets>
 <sheet>
 <plain>
-<text x="15.24" y="86.36" size="1.778" layer="91">Power Indication LED</text>
-<text x="180.34" y="104.14" size="1.778" layer="91">Connectors</text>
-<text x="71.12" y="73.66" size="1.778" layer="91">CAN</text>
-<text x="91.44" y="73.66" size="0.508" layer="91">RS to ground for high-speed mode (1Mbps with shielded twisted-pair cable)
-RS to resistor to ground for slope-control mode (resistor value affects slew rates)</text>
+<text x="10.16" y="63.5" size="1.778" layer="91">Power Indication LED</text>
+<text x="205.74" y="81.28" size="1.778" layer="91">Connectors</text>
+<text x="66.04" y="50.8" size="1.778" layer="91">CAN</text>
 <text x="139.7" y="63.5" size="1.778" layer="91">Oscillator</text>
 <text x="190.5" y="152.4" size="1.778" layer="91">Pin 1 (VDD)</text>
 <text x="210.82" y="152.4" size="1.778" layer="91">Pin 17 (VDDIO2)</text>
@@ -2628,43 +2626,43 @@ RS to resistor to ground for slope-control mode (resistor value affects slew rat
 <instance part="GND4" gate="1" x="187.96" y="127" smashed="yes">
 <attribute name="VALUE" x="185.42" y="124.46" size="1.778" layer="96"/>
 </instance>
-<instance part="R5" gate="G$1" x="22.86" y="68.58" smashed="yes" rot="R90">
-<attribute name="NAME" x="21.336" y="68.58" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="24.384" y="68.58" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="R5" gate="G$1" x="17.78" y="45.72" smashed="yes" rot="R90">
+<attribute name="NAME" x="16.256" y="45.72" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="19.304" y="45.72" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="D3" gate="D1" x="22.86" y="58.42" smashed="yes">
-<attribute name="NAME" x="19.431" y="53.848" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="24.765" y="53.848" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
+<instance part="D3" gate="D1" x="17.78" y="35.56" smashed="yes">
+<attribute name="NAME" x="14.351" y="30.988" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="19.685" y="30.988" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
-<instance part="GND6" gate="1" x="22.86" y="45.72" smashed="yes">
-<attribute name="VALUE" x="20.32" y="43.18" size="1.778" layer="96"/>
+<instance part="GND6" gate="1" x="17.78" y="22.86" smashed="yes">
+<attribute name="VALUE" x="15.24" y="20.32" size="1.778" layer="96"/>
 </instance>
-<instance part="CONNECTOR1" gate="G$1" x="187.96" y="91.44" smashed="yes">
-<attribute name="NAME" x="180.34" y="99.568" size="1.778" layer="95" font="vector"/>
+<instance part="CONNECTOR1" gate="G$1" x="213.36" y="68.58" smashed="yes">
+<attribute name="NAME" x="205.74" y="76.708" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="U$1" gate="G$1" x="180.34" y="71.12" smashed="yes">
-<attribute name="NAME" x="180.34" y="76.2" size="2.54" layer="95"/>
+<instance part="U$1" gate="G$1" x="205.74" y="48.26" smashed="yes">
+<attribute name="NAME" x="205.74" y="53.34" size="2.54" layer="95"/>
 </instance>
-<instance part="CAN_TRANCEIVER" gate="G$1" x="81.28" y="58.42" smashed="yes">
-<attribute name="NAME" x="73.66" y="68.58" size="1.778" layer="95"/>
+<instance part="CAN_TRANCEIVER" gate="G$1" x="76.2" y="35.56" smashed="yes">
+<attribute name="NAME" x="68.58" y="45.72" size="1.778" layer="95"/>
 </instance>
-<instance part="C6" gate="G$1" x="43.18" y="58.42" smashed="yes">
-<attribute name="NAME" x="44.704" y="61.341" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="44.704" y="56.261" size="1.778" layer="96" font="vector"/>
+<instance part="C6" gate="G$1" x="38.1" y="35.56" smashed="yes">
+<attribute name="NAME" x="39.624" y="38.481" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="39.624" y="33.401" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="GND7" gate="1" x="43.18" y="45.72" smashed="yes">
-<attribute name="VALUE" x="40.64" y="43.18" size="1.778" layer="96"/>
+<instance part="GND7" gate="1" x="38.1" y="22.86" smashed="yes">
+<attribute name="VALUE" x="35.56" y="20.32" size="1.778" layer="96"/>
 </instance>
-<instance part="GND8" gate="1" x="63.5" y="40.64" smashed="yes">
-<attribute name="VALUE" x="60.96" y="38.1" size="1.778" layer="96"/>
+<instance part="GND8" gate="1" x="58.42" y="17.78" smashed="yes">
+<attribute name="VALUE" x="55.88" y="15.24" size="1.778" layer="96"/>
 </instance>
-<instance part="R6" gate="G$1" x="111.76" y="58.42" smashed="yes">
-<attribute name="NAME" x="111.76" y="59.944" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="111.76" y="56.896" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="R6" gate="G$1" x="106.68" y="35.56" smashed="yes">
+<attribute name="NAME" x="106.68" y="37.084" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="106.68" y="34.036" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="R7" gate="G$1" x="111.76" y="48.26" smashed="yes">
-<attribute name="NAME" x="111.76" y="49.784" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="111.76" y="46.736" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="R7" gate="G$1" x="106.68" y="25.4" smashed="yes">
+<attribute name="NAME" x="106.68" y="26.924" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="106.68" y="23.876" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="R9" gate="G$1" x="147.32" y="40.64" smashed="yes" rot="R90">
 <attribute name="NAME" x="145.796" y="40.64" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
@@ -2688,15 +2686,15 @@ RS to resistor to ground for slope-control mode (resistor value affects slew rat
 <attribute name="NAME" x="135.636" y="40.64" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="138.684" y="40.64" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="GND9" gate="1" x="99.06" y="40.64" smashed="yes">
-<attribute name="VALUE" x="96.52" y="38.1" size="1.778" layer="96"/>
+<instance part="GND9" gate="1" x="93.98" y="17.78" smashed="yes">
+<attribute name="VALUE" x="91.44" y="15.24" size="1.778" layer="96"/>
 </instance>
-<instance part="GND10" gate="1" x="111.76" y="66.04" smashed="yes" rot="R90">
-<attribute name="VALUE" x="114.3" y="63.5" size="1.778" layer="96" rot="R90"/>
+<instance part="GND10" gate="1" x="106.68" y="43.18" smashed="yes" rot="R90">
+<attribute name="VALUE" x="109.22" y="40.64" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R10" gate="G$1" x="101.6" y="66.04" smashed="yes">
-<attribute name="NAME" x="101.6" y="67.564" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="101.6" y="64.516" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="R10" gate="G$1" x="96.52" y="43.18" smashed="yes">
+<attribute name="NAME" x="96.52" y="44.704" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="96.52" y="41.656" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -2749,32 +2747,32 @@ RS to resistor to ground for slope-control mode (resistor value affects slew rat
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
 <pinref part="D3" gate="D1" pin="C"/>
-<wire x1="22.86" y1="48.26" x2="22.86" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="25.4" x2="17.78" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="CONNECTOR1" gate="G$1" pin="GND"/>
-<wire x1="195.58" y1="91.44" x2="203.2" y2="91.44" width="0.1524" layer="91"/>
-<label x="203.2" y="91.44" size="1.778" layer="95"/>
+<wire x1="220.98" y1="68.58" x2="228.6" y2="68.58" width="0.1524" layer="91"/>
+<label x="228.6" y="68.58" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="3"/>
-<wire x1="175.26" y1="68.58" x2="167.64" y2="68.58" width="0.1524" layer="91"/>
-<label x="167.64" y="68.58" size="1.778" layer="95"/>
+<wire x1="200.66" y1="45.72" x2="193.04" y2="45.72" width="0.1524" layer="91"/>
+<label x="193.04" y="45.72" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="2"/>
-<wire x1="205.74" y1="71.12" x2="213.36" y2="71.12" width="0.1524" layer="91"/>
-<label x="210.82" y="71.12" size="1.778" layer="95"/>
+<wire x1="231.14" y1="48.26" x2="238.76" y2="48.26" width="0.1524" layer="91"/>
+<label x="236.22" y="48.26" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="C6" gate="G$1" pin="2"/>
-<wire x1="43.18" y1="55.88" x2="43.18" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="33.02" x2="38.1" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="CAN_TRANCEIVER" gate="G$1" pin="GND"/>
-<wire x1="68.58" y1="50.8" x2="63.5" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="50.8" x2="63.5" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="27.94" x2="58.42" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="27.94" x2="58.42" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="GND8" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -2790,8 +2788,8 @@ RS to resistor to ground for slope-control mode (resistor value affects slew rat
 </segment>
 <segment>
 <pinref part="CAN_TRANCEIVER" gate="G$1" pin="SHDN"/>
-<wire x1="93.98" y1="50.8" x2="99.06" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="50.8" x2="99.06" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="27.94" x2="93.98" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="27.94" x2="93.98" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="GND9" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -2802,7 +2800,7 @@ RS to resistor to ground for slope-control mode (resistor value affects slew rat
 <segment>
 <pinref part="R10" gate="G$1" pin="2"/>
 <pinref part="GND10" gate="1" pin="GND"/>
-<wire x1="106.68" y1="66.04" x2="109.22" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="43.18" x2="104.14" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="NRST" class="0">
@@ -2822,13 +2820,13 @@ RS to resistor to ground for slope-control mode (resistor value affects slew rat
 </segment>
 <segment>
 <pinref part="CONNECTOR1" gate="G$1" pin="NRST"/>
-<wire x1="195.58" y1="86.36" x2="203.2" y2="86.36" width="0.1524" layer="91"/>
-<label x="203.2" y="86.36" size="1.778" layer="95"/>
+<wire x1="220.98" y1="63.5" x2="228.6" y2="63.5" width="0.1524" layer="91"/>
+<label x="228.6" y="63.5" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="13"/>
-<wire x1="175.26" y1="55.88" x2="167.64" y2="55.88" width="0.1524" layer="91"/>
-<label x="167.64" y="55.88" size="1.778" layer="95"/>
+<wire x1="200.66" y1="33.02" x2="193.04" y2="33.02" width="0.1524" layer="91"/>
+<label x="193.04" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -2854,8 +2852,8 @@ RS to resistor to ground for slope-control mode (resistor value affects slew rat
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="7"/>
-<wire x1="175.26" y1="63.5" x2="167.64" y2="63.5" width="0.1524" layer="91"/>
-<label x="167.64" y="63.5" size="1.778" layer="95"/>
+<wire x1="200.66" y1="40.64" x2="193.04" y2="40.64" width="0.1524" layer="91"/>
+<label x="193.04" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="C2_1" class="0">
@@ -2866,8 +2864,8 @@ RS to resistor to ground for slope-control mode (resistor value affects slew rat
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="9"/>
-<wire x1="175.26" y1="60.96" x2="167.64" y2="60.96" width="0.1524" layer="91"/>
-<label x="167.64" y="60.96" size="1.778" layer="95"/>
+<wire x1="200.66" y1="38.1" x2="193.04" y2="38.1" width="0.1524" layer="91"/>
+<label x="193.04" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LED" class="0">
@@ -2921,27 +2919,27 @@ RS to resistor to ground for slope-control mode (resistor value affects slew rat
 </segment>
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="22.86" y1="73.66" x2="22.86" y2="78.74" width="0.1524" layer="91"/>
-<label x="22.86" y="78.74" size="1.778" layer="95" rot="R90"/>
+<wire x1="17.78" y1="50.8" x2="17.78" y2="55.88" width="0.1524" layer="91"/>
+<label x="17.78" y="55.88" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="CONNECTOR1" gate="G$1" pin="3V3"/>
-<wire x1="195.58" y1="96.52" x2="203.2" y2="96.52" width="0.1524" layer="91"/>
-<label x="203.2" y="96.52" size="1.778" layer="95"/>
+<wire x1="220.98" y1="73.66" x2="228.6" y2="73.66" width="0.1524" layer="91"/>
+<label x="228.6" y="73.66" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="1"/>
-<wire x1="175.26" y1="71.12" x2="167.64" y2="71.12" width="0.1524" layer="91"/>
-<label x="167.64" y="71.12" size="1.778" layer="95"/>
+<wire x1="200.66" y1="48.26" x2="193.04" y2="48.26" width="0.1524" layer="91"/>
+<label x="193.04" y="48.26" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="C6" gate="G$1" pin="1"/>
-<wire x1="43.18" y1="63.5" x2="43.18" y2="66.04" width="0.1524" layer="91"/>
-<label x="43.18" y="76.2" size="1.778" layer="95" rot="R90"/>
+<wire x1="38.1" y1="40.64" x2="38.1" y2="43.18" width="0.1524" layer="91"/>
+<label x="38.1" y="53.34" size="1.778" layer="95" rot="R90"/>
 <pinref part="CAN_TRANCEIVER" gate="G$1" pin="VCC"/>
-<wire x1="43.18" y1="66.04" x2="43.18" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="66.04" x2="43.18" y2="66.04" width="0.1524" layer="91"/>
-<junction x="43.18" y="66.04"/>
+<wire x1="38.1" y1="43.18" x2="38.1" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="43.18" x2="38.1" y2="43.18" width="0.1524" layer="91"/>
+<junction x="38.1" y="43.18"/>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
@@ -2957,8 +2955,8 @@ RS to resistor to ground for slope-control mode (resistor value affects slew rat
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="14"/>
-<wire x1="205.74" y1="55.88" x2="213.36" y2="55.88" width="0.1524" layer="91"/>
-<label x="210.82" y="55.88" size="1.778" layer="95"/>
+<wire x1="231.14" y1="33.02" x2="238.76" y2="33.02" width="0.1524" layer="91"/>
+<label x="236.22" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ALERT2" class="0">
@@ -2969,8 +2967,8 @@ RS to resistor to ground for slope-control mode (resistor value affects slew rat
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="12"/>
-<wire x1="205.74" y1="58.42" x2="213.36" y2="58.42" width="0.1524" layer="91"/>
-<label x="210.82" y="58.42" size="1.778" layer="95"/>
+<wire x1="231.14" y1="35.56" x2="238.76" y2="35.56" width="0.1524" layer="91"/>
+<label x="236.22" y="35.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SWCLK" class="0">
@@ -2981,13 +2979,13 @@ RS to resistor to ground for slope-control mode (resistor value affects slew rat
 </segment>
 <segment>
 <pinref part="CONNECTOR1" gate="G$1" pin="SWCLK"/>
-<wire x1="195.58" y1="93.98" x2="203.2" y2="93.98" width="0.1524" layer="91"/>
-<label x="203.2" y="93.98" size="1.778" layer="95"/>
+<wire x1="220.98" y1="71.12" x2="228.6" y2="71.12" width="0.1524" layer="91"/>
+<label x="228.6" y="71.12" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="8"/>
-<wire x1="205.74" y1="63.5" x2="213.36" y2="63.5" width="0.1524" layer="91"/>
-<label x="210.82" y="63.5" size="1.778" layer="95"/>
+<wire x1="231.14" y1="40.64" x2="238.76" y2="40.64" width="0.1524" layer="91"/>
+<label x="236.22" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SWDIO" class="0">
@@ -2998,13 +2996,13 @@ RS to resistor to ground for slope-control mode (resistor value affects slew rat
 </segment>
 <segment>
 <pinref part="CONNECTOR1" gate="G$1" pin="SWDIO"/>
-<wire x1="195.58" y1="88.9" x2="203.2" y2="88.9" width="0.1524" layer="91"/>
-<label x="203.2" y="88.9" size="1.778" layer="95"/>
+<wire x1="220.98" y1="66.04" x2="228.6" y2="66.04" width="0.1524" layer="91"/>
+<label x="228.6" y="66.04" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="6"/>
-<wire x1="205.74" y1="66.04" x2="213.36" y2="66.04" width="0.1524" layer="91"/>
-<label x="210.82" y="66.04" size="1.778" layer="95"/>
+<wire x1="231.14" y1="43.18" x2="238.76" y2="43.18" width="0.1524" layer="91"/>
+<label x="236.22" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CAN_TX" class="0">
@@ -3015,8 +3013,8 @@ RS to resistor to ground for slope-control mode (resistor value affects slew rat
 </segment>
 <segment>
 <pinref part="CAN_TRANCEIVER" gate="G$1" pin="TXD"/>
-<wire x1="68.58" y1="60.96" x2="60.96" y2="60.96" width="0.1524" layer="91"/>
-<label x="53.34" y="60.96" size="1.778" layer="95"/>
+<wire x1="63.5" y1="38.1" x2="55.88" y2="38.1" width="0.1524" layer="91"/>
+<label x="48.26" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CAN_RX" class="0">
@@ -3027,8 +3025,8 @@ RS to resistor to ground for slope-control mode (resistor value affects slew rat
 </segment>
 <segment>
 <pinref part="CAN_TRANCEIVER" gate="G$1" pin="RXD"/>
-<wire x1="68.58" y1="55.88" x2="60.96" y2="55.88" width="0.1524" layer="91"/>
-<label x="53.34" y="55.88" size="1.778" layer="95"/>
+<wire x1="63.5" y1="33.02" x2="55.88" y2="33.02" width="0.1524" layer="91"/>
+<label x="48.26" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DATA" class="0">
@@ -3039,8 +3037,8 @@ RS to resistor to ground for slope-control mode (resistor value affects slew rat
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="4"/>
-<wire x1="205.74" y1="68.58" x2="213.36" y2="68.58" width="0.1524" layer="91"/>
-<label x="210.82" y="68.58" size="1.778" layer="95"/>
+<wire x1="231.14" y1="45.72" x2="238.76" y2="45.72" width="0.1524" layer="91"/>
+<label x="236.22" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CLK" class="0">
@@ -3051,51 +3049,51 @@ RS to resistor to ground for slope-control mode (resistor value affects slew rat
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="5"/>
-<wire x1="175.26" y1="66.04" x2="167.64" y2="66.04" width="0.1524" layer="91"/>
-<label x="167.64" y="66.04" size="1.778" layer="95"/>
+<wire x1="200.66" y1="43.18" x2="193.04" y2="43.18" width="0.1524" layer="91"/>
+<label x="193.04" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="22.86" y1="60.96" x2="22.86" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="38.1" x2="17.78" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="D3" gate="D1" pin="A"/>
 </segment>
 </net>
 <net name="CAN_L" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="11"/>
-<wire x1="175.26" y1="58.42" x2="167.64" y2="58.42" width="0.1524" layer="91"/>
-<label x="167.64" y="58.42" size="1.778" layer="95"/>
+<wire x1="200.66" y1="35.56" x2="193.04" y2="35.56" width="0.1524" layer="91"/>
+<label x="193.04" y="35.56" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="CAN_TRANCEIVER" gate="G$1" pin="CANL"/>
-<wire x1="93.98" y1="55.88" x2="106.68" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="55.88" x2="106.68" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="55.88" x2="106.68" y2="58.42" width="0.1524" layer="91"/>
-<junction x="106.68" y="55.88"/>
+<wire x1="88.9" y1="33.02" x2="101.6" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="33.02" x2="101.6" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="33.02" x2="101.6" y2="35.56" width="0.1524" layer="91"/>
+<junction x="101.6" y="33.02"/>
 <pinref part="R6" gate="G$1" pin="1"/>
 <pinref part="R7" gate="G$1" pin="1"/>
-<label x="99.06" y="55.88" size="1.778" layer="95"/>
+<label x="93.98" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CAN_H" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="10"/>
-<wire x1="205.74" y1="60.96" x2="213.36" y2="60.96" width="0.1524" layer="91"/>
-<label x="210.82" y="60.96" size="1.778" layer="95"/>
+<wire x1="231.14" y1="38.1" x2="238.76" y2="38.1" width="0.1524" layer="91"/>
+<label x="236.22" y="38.1" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
 <pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="116.84" y1="48.26" x2="116.84" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="25.4" x2="111.76" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="CAN_TRANCEIVER" gate="G$1" pin="CANH"/>
-<wire x1="116.84" y1="55.88" x2="116.84" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="60.96" x2="121.92" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="60.96" x2="121.92" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="55.88" x2="116.84" y2="55.88" width="0.1524" layer="91"/>
-<junction x="116.84" y="55.88"/>
-<label x="99.06" y="60.96" size="1.778" layer="95"/>
+<wire x1="111.76" y1="33.02" x2="111.76" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="38.1" x2="116.84" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="38.1" x2="116.84" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="33.02" x2="111.76" y2="33.02" width="0.1524" layer="91"/>
+<junction x="111.76" y="33.02"/>
+<label x="93.98" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="OSC_IN" class="0">
@@ -3146,7 +3144,7 @@ RS to resistor to ground for slope-control mode (resistor value affects slew rat
 <segment>
 <pinref part="CAN_TRANCEIVER" gate="G$1" pin="RS"/>
 <pinref part="R10" gate="G$1" pin="1"/>
-<wire x1="93.98" y1="66.04" x2="96.52" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="43.18" x2="91.44" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -3155,10 +3153,6 @@ RS to resistor to ground for slope-control mode (resistor value affects slew rat
 </schematic>
 </drawing>
 <compatibility>
-<note version="6.3" minversion="6.2.2" severity="warning">
-Since Version 6.2.2 text objects can contain more than one line,
-which will not be processed correctly with this version.
-</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
