@@ -989,9 +989,8 @@ maxErrors = 50
 </polygon>
 <polygon width="0.1524" layer="16">
 <vertex x="-2" y="28"/>
-<vertex x="22" y="28"/>
-<vertex x="26" y="24"/>
-<vertex x="26" y="0"/>
+<vertex x="24" y="28"/>
+<vertex x="26" y="26"/>
 <vertex x="26" y="-2"/>
 <vertex x="24" y="-4"/>
 <vertex x="-4" y="-4"/>
