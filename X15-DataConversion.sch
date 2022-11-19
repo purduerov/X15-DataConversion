@@ -782,616 +782,6 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-LED">
-<description>&lt;h3&gt;SparkFun LEDs&lt;/h3&gt;
-This library contains discrete LEDs for illumination or indication, but no displays.
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="LED-0603">
-<description>&lt;B&gt;LED 0603 SMT&lt;/B&gt;&lt;p&gt;
-0603, surface mount.
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
-&lt;li&gt;Pin pitch:0.075inch &lt;/li&gt;
-&lt;li&gt;Area: 0.06" x 0.03"&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;LED - BLUE&lt;/li&gt;</description>
-<smd name="C" x="0.877" y="0" dx="1" dy="1" layer="1" roundness="30" rot="R270"/>
-<smd name="A" x="-0.877" y="0" dx="1" dy="1" layer="1" roundness="30" rot="R270"/>
-<text x="0" y="0.635" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.635" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<wire x1="1.5875" y1="0.47625" x2="1.5875" y2="-0.47625" width="0.2032" layer="21"/>
-<wire x1="0.15875" y1="0.47625" x2="0.15875" y2="0" width="0.127" layer="51"/>
-<wire x1="0.15875" y1="0" x2="0.15875" y2="-0.47625" width="0.127" layer="51"/>
-<wire x1="0.15875" y1="0" x2="-0.15875" y2="0.3175" width="0.127" layer="51"/>
-<wire x1="0.15875" y1="0" x2="-0.15875" y2="-0.3175" width="0.127" layer="51"/>
-</package>
-<package name="LED-1206">
-<description>&lt;h3&gt;LED 1206 SMT&lt;/h3&gt;
-
-1206, surface mount. 
-
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
-&lt;li&gt;Pin pitch: &lt;/li&gt;
-&lt;li&gt;Area: 0.125" x 0.06"&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;LED&lt;/li&gt;&lt;/ul&gt;</description>
-<wire x1="2.4" y1="0.6825" x2="2.4" y2="-0.6825" width="0.2032" layer="21"/>
-<smd name="A" x="-1.5" y="0" dx="1.2" dy="1.4" layer="1"/>
-<smd name="C" x="1.5" y="0" dx="1.2" dy="1.4" layer="1"/>
-<text x="0" y="0.9525" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.9525" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<wire x1="0.65375" y1="0.6825" x2="0.65375" y2="-0.6825" width="0.2032" layer="51"/>
-<wire x1="0.635" y1="0" x2="0.15875" y2="0.47625" width="0.2032" layer="51"/>
-<wire x1="0.635" y1="0" x2="0.15875" y2="-0.47625" width="0.2032" layer="51"/>
-</package>
-<package name="LED-1206-BOTTOM">
-<description>&lt;h3&gt;LED 1206 SMT&lt;/h3&gt;
-
-1206, surface mount. 
-
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
-&lt;li&gt;Area: 0.125" x 0.06"&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;LED&lt;/li&gt;&lt;/ul&gt;</description>
-<wire x1="-2" y1="0.4" x2="-2" y2="-0.4" width="0.127" layer="49"/>
-<wire x1="-2.4" y1="0" x2="-1.6" y2="0" width="0.127" layer="49"/>
-<wire x1="1.6" y1="0" x2="2.4" y2="0" width="0.127" layer="49"/>
-<wire x1="-1.27" y1="0" x2="-0.381" y2="0" width="0.127" layer="49"/>
-<wire x1="-0.381" y1="0" x2="-0.381" y2="0.635" width="0.127" layer="49"/>
-<wire x1="-0.381" y1="0.635" x2="0.254" y2="0" width="0.127" layer="49"/>
-<wire x1="0.254" y1="0" x2="-0.381" y2="-0.635" width="0.127" layer="49"/>
-<wire x1="-0.381" y1="-0.635" x2="-0.381" y2="0" width="0.127" layer="49"/>
-<wire x1="0.254" y1="0" x2="0.254" y2="0.635" width="0.127" layer="49"/>
-<wire x1="0.254" y1="0" x2="0.254" y2="-0.635" width="0.127" layer="49"/>
-<wire x1="0.254" y1="0" x2="1.27" y2="0" width="0.127" layer="49"/>
-<rectangle x1="-0.75" y1="-0.75" x2="0.75" y2="0.75" layer="51"/>
-<smd name="A" x="-1.8" y="0" dx="1.5" dy="1.6" layer="1"/>
-<smd name="C" x="1.8" y="0" dx="1.5" dy="1.6" layer="1"/>
-<hole x="0" y="0" drill="2.3"/>
-<polygon width="0" layer="51">
-<vertex x="1.1" y="-0.5"/>
-<vertex x="1.1" y="0.5"/>
-<vertex x="1.6" y="0.5"/>
-<vertex x="1.6" y="0.25" curve="90"/>
-<vertex x="1.4" y="0.05"/>
-<vertex x="1.4" y="-0.05" curve="90"/>
-<vertex x="1.6" y="-0.25"/>
-<vertex x="1.6" y="-0.5"/>
-</polygon>
-<polygon width="0" layer="51">
-<vertex x="-1.1" y="0.5"/>
-<vertex x="-1.1" y="-0.5"/>
-<vertex x="-1.6" y="-0.5"/>
-<vertex x="-1.6" y="-0.25" curve="90"/>
-<vertex x="-1.4" y="-0.05"/>
-<vertex x="-1.4" y="0.05" curve="90"/>
-<vertex x="-1.6" y="0.25"/>
-<vertex x="-1.6" y="0.5"/>
-</polygon>
-<wire x1="2.7686" y1="1.016" x2="2.7686" y2="-1.016" width="0.127" layer="21"/>
-<text x="0" y="1.27" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.27" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-</package>
-<package name="LED-1206-HIDDENSILK">
-<wire x1="0.6474" y1="0.6825" x2="0.6474" y2="-0.6825" width="0.2032" layer="21"/>
-<smd name="A" x="-1.5" y="0" dx="1.2" dy="1.4" layer="1"/>
-<smd name="C" x="1.5" y="0" dx="1.2" dy="1.4" layer="1"/>
-<text x="0" y="0.9525" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.9525" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<wire x1="0.65375" y1="0.6825" x2="0.65375" y2="-0.6825" width="0.2032" layer="51"/>
-<wire x1="0.635" y1="0" x2="0.15875" y2="0.47625" width="0.2032" layer="51"/>
-<wire x1="0.635" y1="0" x2="0.15875" y2="-0.47625" width="0.2032" layer="51"/>
-</package>
-<package name="LED_5MM">
-<description>&lt;B&gt;LED 5mm PTH&lt;/B&gt;&lt;p&gt;
-5 mm, round
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
-&lt;li&gt;Pin pitch: 0.1inch&lt;/li&gt;
-&lt;li&gt;Diameter: 5mm&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;LED-IR-THRU&lt;/li&gt;</description>
-<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.2032" layer="22"/>
-<wire x1="-1.143" y1="0" x2="0" y2="1.143" width="0.1524" layer="51" curve="-90" cap="flat"/>
-<wire x1="0" y1="-1.143" x2="1.143" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
-<wire x1="-1.651" y1="0" x2="0" y2="1.651" width="0.1524" layer="51" curve="-90" cap="flat"/>
-<wire x1="0" y1="-1.651" x2="1.651" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
-<wire x1="-2.159" y1="0" x2="0" y2="2.159" width="0.1524" layer="51" curve="-90" cap="flat"/>
-<wire x1="0" y1="-2.159" x2="2.159" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
-<pad name="A" x="-1.27" y="0" drill="0.8128" diameter="1.8796"/>
-<pad name="K" x="1.27" y="0" drill="0.8128" diameter="1.8796"/>
-<text x="0" y="3.3909" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0.0254" y="-3.3909" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.2032" layer="21"/>
-<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.254" layer="21" curve="-286.260205" cap="flat"/>
-<circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.2032" layer="51"/>
-</package>
-<package name="LED_3MM">
-<description>&lt;h3&gt;LED 3MM PTH&lt;/h3&gt;
-
-3 mm, round.
-
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
-&lt;li&gt;Pin pitch: 0.1inch&lt;/li&gt;
-&lt;li&gt;Diameter: 3mm&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;LED&lt;/li&gt;&lt;/ul&gt;</description>
-<wire x1="1.5748" y1="-1.27" x2="1.5748" y2="1.27" width="0.254" layer="51"/>
-<wire x1="0" y1="2.032" x2="1.561" y2="1.3009" width="0.254" layer="22" curve="-50.193108" cap="flat"/>
-<wire x1="-1.7929" y1="0.9562" x2="0" y2="2.032" width="0.254" layer="22" curve="-61.926949" cap="flat"/>
-<wire x1="0" y1="-2.032" x2="1.5512" y2="-1.3126" width="0.254" layer="22" curve="49.763022" cap="flat"/>
-<wire x1="-1.7643" y1="-1.0082" x2="0" y2="-2.032" width="0.254" layer="22" curve="60.255215" cap="flat"/>
-<wire x1="-2.032" y1="0" x2="-1.7891" y2="0.9634" width="0.254" layer="51" curve="-28.301701" cap="flat"/>
-<wire x1="-2.032" y1="0" x2="-1.7306" y2="-1.065" width="0.254" layer="51" curve="31.60822" cap="flat"/>
-<wire x1="1.5748" y1="1.2954" x2="1.5748" y2="0.7874" width="0.254" layer="22"/>
-<wire x1="1.5748" y1="-1.2954" x2="1.5748" y2="-0.8382" width="0.254" layer="22"/>
-<pad name="A" x="-1.27" y="0" drill="0.8128" diameter="1.8796"/>
-<pad name="K" x="1.27" y="0" drill="0.8128" diameter="1.8796"/>
-<text x="0" y="2.286" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-2.286" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<wire x1="0" y1="2.032" x2="1.561" y2="1.3009" width="0.254" layer="21" curve="-50.193108" cap="flat"/>
-<wire x1="-1.7929" y1="0.9562" x2="0" y2="2.032" width="0.254" layer="21" curve="-61.926949" cap="flat"/>
-<wire x1="0" y1="-2.032" x2="1.5512" y2="-1.3126" width="0.254" layer="21" curve="49.763022" cap="flat"/>
-<wire x1="-1.7643" y1="-1.0082" x2="0" y2="-2.032" width="0.254" layer="21" curve="60.255215" cap="flat"/>
-<wire x1="1.5748" y1="1.2954" x2="1.5748" y2="0.7874" width="0.254" layer="21"/>
-<wire x1="1.5748" y1="-1.2954" x2="1.5748" y2="-0.8382" width="0.254" layer="21"/>
-</package>
-<package name="LED_10MM">
-<description>&lt;B&gt;LED 10mm PTH&lt;/B&gt;&lt;p&gt;
-10 mm, round
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
-&lt;li&gt;Pin pitch: 0.2inch&lt;/li&gt;
-&lt;li&gt;Diameter: 10mm&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;LED&lt;/li&gt;</description>
-<wire x1="-5" y1="-2" x2="-5" y2="2" width="0.2032" layer="21" curve="316.862624"/>
-<wire x1="-5" y1="2" x2="-5" y2="-2" width="0.2032" layer="21"/>
-<pad name="A" x="2.54" y="0" drill="2.4" diameter="3.7"/>
-<pad name="C" x="-2.54" y="0" drill="2.4" diameter="3.7"/>
-<text x="2.159" y="2.54" size="1.016" layer="51" ratio="15">L</text>
-<text x="-2.921" y="2.54" size="1.016" layer="51" ratio="15">S</text>
-<wire x1="-5" y1="2" x2="-5" y2="-2" width="0.2032" layer="22"/>
-<text x="0" y="5.715" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-5.715" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<wire x1="-5" y1="2" x2="-5" y2="-2" width="0.2032" layer="51"/>
-</package>
-<package name="FKIT-LED-1206">
-<description>&lt;B&gt;LED 1206 SMT&lt;/B&gt;&lt;p&gt;
-1206, surface mount
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
-&lt;li&gt;Area: 0.125"x 0.06" &lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;LED&lt;/li&gt;</description>
-<wire x1="1.55" y1="-0.75" x2="-1.55" y2="-0.75" width="0.1016" layer="51"/>
-<wire x1="-1.55" y1="-0.75" x2="-1.55" y2="0.75" width="0.1016" layer="51"/>
-<wire x1="-1.55" y1="0.75" x2="1.55" y2="0.75" width="0.1016" layer="51"/>
-<wire x1="1.55" y1="0.75" x2="1.55" y2="-0.75" width="0.1016" layer="51"/>
-<wire x1="-0.55" y1="0.5" x2="-0.55" y2="-0.5" width="0.1016" layer="51" curve="84.547378"/>
-<wire x1="0.55" y1="-0.5" x2="0.55" y2="0.5" width="0.1016" layer="51" curve="84.547378"/>
-<smd name="A" x="-1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
-<smd name="C" x="1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
-<text x="0" y="1.11125" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.11125" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<rectangle x1="0.45" y1="-0.7" x2="0.8" y2="-0.45" layer="51"/>
-<rectangle x1="0.8" y1="-0.7" x2="0.9" y2="0.5" layer="51"/>
-<rectangle x1="0.8" y1="0.55" x2="0.9" y2="0.7" layer="51"/>
-<rectangle x1="-0.9" y1="-0.7" x2="-0.8" y2="0.5" layer="51"/>
-<rectangle x1="-0.9" y1="0.55" x2="-0.8" y2="0.7" layer="51"/>
-<wire x1="2.54" y1="0.9525" x2="2.54" y2="-0.9525" width="0.2032" layer="21"/>
-<wire x1="0.3175" y1="0.635" x2="0.3175" y2="0" width="0.2032" layer="51"/>
-<wire x1="0.3175" y1="0" x2="0.3175" y2="-0.635" width="0.2032" layer="51"/>
-<wire x1="0.3175" y1="0" x2="0" y2="0.3175" width="0.2032" layer="51"/>
-<wire x1="0.3175" y1="0" x2="0" y2="-0.3175" width="0.2032" layer="51"/>
-</package>
-<package name="LED_3MM-NS">
-<description>&lt;h3&gt;LED 3MM PTH- No Silk&lt;/h3&gt;
-
-3 mm, round, no silk outline of package
-
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
-&lt;li&gt;Pin pitch: 0.1inch&lt;/li&gt;
-&lt;li&gt;Diameter: 3mm&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;LED&lt;/li&gt;&lt;/ul&gt;</description>
-<wire x1="1.5748" y1="-1.27" x2="1.5748" y2="1.27" width="0.254" layer="51"/>
-<wire x1="0" y1="2.032" x2="1.561" y2="1.3009" width="0.254" layer="51" curve="-50.193108" cap="flat"/>
-<wire x1="-1.7929" y1="0.9562" x2="0" y2="2.032" width="0.254" layer="51" curve="-61.926949" cap="flat"/>
-<wire x1="0" y1="-2.032" x2="1.5512" y2="-1.3126" width="0.254" layer="51" curve="49.763022" cap="flat"/>
-<wire x1="-1.7643" y1="-1.0082" x2="0" y2="-2.032" width="0.254" layer="51" curve="60.255215" cap="flat"/>
-<wire x1="-2.032" y1="0" x2="-1.7891" y2="0.9634" width="0.254" layer="51" curve="-28.301701" cap="flat"/>
-<wire x1="-2.032" y1="0" x2="-1.7306" y2="-1.065" width="0.254" layer="51" curve="31.60822" cap="flat"/>
-<wire x1="1.5748" y1="1.2954" x2="1.5748" y2="0.7874" width="0.254" layer="51"/>
-<wire x1="1.5748" y1="-1.2954" x2="1.5748" y2="-0.8382" width="0.254" layer="51"/>
-<pad name="A" x="-1.27" y="0" drill="0.8128"/>
-<pad name="K" x="1.27" y="0" drill="0.8128"/>
-<text x="0" y="2.286" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-2.286" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<wire x1="1.8923" y1="1.2954" x2="1.8923" y2="0.7874" width="0.254" layer="21"/>
-<wire x1="1.8923" y1="-1.2954" x2="1.8923" y2="-0.8382" width="0.254" layer="21"/>
-</package>
-<package name="LED_5MM-KIT">
-<description>&lt;h3&gt;LED 5mm KIT PTH&lt;/h3&gt;
-&lt;p&gt;
-&lt;b&gt;Warning:&lt;/b&gt; This is the KIT version of this package. This package has a smaller diameter top stop mask, which doesn't cover the diameter of the pad. This means only the bottom side of the pads' copper will be exposed. You'll only be able to solder to the bottom side.&lt;/p&gt;
-
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
-&lt;li&gt;Pin pitch: 0.1inch&lt;/li&gt;
-&lt;li&gt;Diameter: 5mm&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example Device:
-&lt;ul&gt;&lt;li&gt;LED&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.2032" layer="22"/>
-<wire x1="-1.143" y1="0" x2="0" y2="1.143" width="0.1524" layer="51" curve="-90" cap="flat"/>
-<wire x1="0" y1="-1.143" x2="1.143" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
-<wire x1="-1.651" y1="0" x2="0" y2="1.651" width="0.1524" layer="51" curve="-90" cap="flat"/>
-<wire x1="0" y1="-1.651" x2="1.651" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
-<wire x1="-2.159" y1="0" x2="0" y2="2.159" width="0.1524" layer="51" curve="-90" cap="flat"/>
-<wire x1="0" y1="-2.159" x2="2.159" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
-<pad name="A" x="-1.27" y="0" drill="0.8128" diameter="1.8796" stop="no"/>
-<pad name="K" x="1.27" y="0" drill="0.8128" diameter="1.8796" stop="no"/>
-<text x="0" y="3.3909" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0.0254" y="-3.3909" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<polygon width="0.127" layer="30">
-<vertex x="-1.2675" y="-0.9525" curve="-90"/>
-<vertex x="-2.2224" y="-0.0228" curve="-90.011749"/>
-<vertex x="-1.27" y="0.9526" curve="-90"/>
-<vertex x="-0.32" y="-0.0254" curve="-90.024193"/>
-</polygon>
-<polygon width="0.127" layer="29">
-<vertex x="-1.27" y="-0.4445" curve="-90.012891"/>
-<vertex x="-1.7145" y="-0.0203" curve="-90"/>
-<vertex x="-1.27" y="0.447" curve="-90"/>
-<vertex x="-0.8281" y="-0.0101" curve="-90.012967"/>
-</polygon>
-<polygon width="0.127" layer="30">
-<vertex x="1.2725" y="-0.9525" curve="-90"/>
-<vertex x="0.3176" y="-0.0228" curve="-90.011749"/>
-<vertex x="1.27" y="0.9526" curve="-90"/>
-<vertex x="2.22" y="-0.0254" curve="-90.024193"/>
-</polygon>
-<polygon width="0.127" layer="29">
-<vertex x="1.27" y="-0.4445" curve="-90.012891"/>
-<vertex x="0.8255" y="-0.0203" curve="-90"/>
-<vertex x="1.27" y="0.447" curve="-90"/>
-<vertex x="1.7119" y="-0.0101" curve="-90.012967"/>
-</polygon>
-<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.2032" layer="21"/>
-<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.254" layer="21" curve="-286.260205" cap="flat"/>
-<circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.2032" layer="51"/>
-</package>
-<package name="LED_5MM-KIT-NO-SILK">
-<description>&lt;h3&gt;LED 5mm KIT PTH&lt;/h3&gt;
-&lt;p&gt;
-&lt;b&gt;Warning:&lt;/b&gt; This is the KIT version of this package. This package has a smaller diameter top stop mask, which doesn't cover the diameter of the pad. This means only the bottom side of the pads' copper will be exposed. You'll only be able to solder to the bottom side.&lt;/p&gt;
-
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
-&lt;li&gt;Pin pitch: 0.1inch&lt;/li&gt;
-&lt;li&gt;Diameter: 5mm&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example Device:
-&lt;ul&gt;&lt;li&gt;LED&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<wire x1="-1.143" y1="0" x2="0" y2="1.143" width="0.1524" layer="51" curve="-90" cap="flat"/>
-<wire x1="0" y1="-1.143" x2="1.143" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
-<wire x1="-1.651" y1="0" x2="0" y2="1.651" width="0.1524" layer="51" curve="-90" cap="flat"/>
-<wire x1="0" y1="-1.651" x2="1.651" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
-<wire x1="-2.159" y1="0" x2="0" y2="2.159" width="0.1524" layer="51" curve="-90" cap="flat"/>
-<wire x1="0" y1="-2.159" x2="2.159" y2="0" width="0.1524" layer="51" curve="90" cap="flat"/>
-<pad name="A" x="-1.27" y="0" drill="0.8128" diameter="1.8796" stop="no"/>
-<pad name="K" x="1.27" y="0" drill="0.8128" diameter="1.8796" stop="no"/>
-<text x="0" y="3.3909" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0.0254" y="-3.3909" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<polygon width="0.127" layer="30">
-<vertex x="-1.2675" y="-0.9525" curve="-90"/>
-<vertex x="-2.2224" y="-0.0228" curve="-90.011749"/>
-<vertex x="-1.27" y="0.9526" curve="-90"/>
-<vertex x="-0.32" y="-0.0254" curve="-90.024193"/>
-</polygon>
-<polygon width="0.127" layer="29">
-<vertex x="-1.27" y="-0.4445" curve="-90.012891"/>
-<vertex x="-1.7145" y="-0.0203" curve="-90"/>
-<vertex x="-1.27" y="0.447" curve="-90"/>
-<vertex x="-0.8281" y="-0.0101" curve="-90.012967"/>
-</polygon>
-<polygon width="0.127" layer="30">
-<vertex x="1.2725" y="-0.9525" curve="-90"/>
-<vertex x="0.3176" y="-0.0228" curve="-90.011749"/>
-<vertex x="1.27" y="0.9526" curve="-90"/>
-<vertex x="2.22" y="-0.0254" curve="-90.024193"/>
-</polygon>
-<polygon width="0.127" layer="29">
-<vertex x="1.27" y="-0.4445" curve="-90.012891"/>
-<vertex x="0.8255" y="-0.0203" curve="-90"/>
-<vertex x="1.27" y="0.447" curve="-90"/>
-<vertex x="1.7119" y="-0.0101" curve="-90.012967"/>
-</polygon>
-<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.2032" layer="51"/>
-<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.254" layer="51" curve="-286.260205" cap="flat"/>
-<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.2032" layer="51"/>
-</package>
-<package name="PLCC-2">
-<circle x="0" y="0" radius="1.1" width="0.2032" layer="51"/>
-<circle x="0" y="0" radius="0.55764375" width="0.127" layer="21"/>
-<circle x="-1.905" y="1.74625" radius="0.0508" width="0.3048" layer="21"/>
-<wire x1="1.75" y1="-1.4" x2="1.75" y2="1.4" width="0.2032" layer="51"/>
-<wire x1="1.75" y1="1.4" x2="-1.75" y2="1.4" width="0.2032" layer="51"/>
-<wire x1="-1.75" y1="1.4" x2="-1.75" y2="-1.4" width="0.2032" layer="51"/>
-<wire x1="-1.75" y1="-1.4" x2="1.75" y2="-1.4" width="0.2032" layer="51"/>
-<wire x1="-1.7" y1="1.4" x2="1.7" y2="1.4" width="0.2032" layer="21"/>
-<wire x1="-1.1662" y1="1.3598" x2="-1.7162" y2="0.8098" width="0.2032" layer="51"/>
-<wire x1="-1.7" y1="-1.4" x2="1.7" y2="-1.4" width="0.2032" layer="21"/>
-<smd name="A" x="1.425" y="0" dx="2.4" dy="1.6" layer="1" rot="R90"/>
-<smd name="C" x="-1.425" y="0" dx="2.4" dy="1.6" layer="1" rot="R90"/>
-<text x="0" y="1.65995" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.5695" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<polygon width="0.127" layer="21">
-<vertex x="0" y="0"/>
-<vertex x="0" y="0.5588" curve="90"/>
-<vertex x="-0.5588" y="0"/>
-</polygon>
-</package>
-</packages>
-<symbols>
-<symbol name="LED">
-<description>&lt;h3&gt;LED&lt;/h3&gt;
-&lt;p&gt;&lt;/p&gt;</description>
-<wire x1="1.27" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="-1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="-1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="-2.032" y1="-0.762" x2="-3.429" y2="-2.159" width="0.1524" layer="94"/>
-<wire x1="-1.905" y1="-1.905" x2="-3.302" y2="-3.302" width="0.1524" layer="94"/>
-<text x="-3.429" y="-4.572" size="1.778" layer="95" font="vector" rot="R90">&gt;NAME</text>
-<text x="1.905" y="-4.572" size="1.778" layer="96" font="vector" rot="R90" align="top-left">&gt;VALUE</text>
-<pin name="C" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="A" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
-<polygon width="0.1524" layer="94">
-<vertex x="-3.429" y="-2.159"/>
-<vertex x="-3.048" y="-1.27"/>
-<vertex x="-2.54" y="-1.778"/>
-</polygon>
-<polygon width="0.1524" layer="94">
-<vertex x="-3.302" y="-3.302"/>
-<vertex x="-2.921" y="-2.413"/>
-<vertex x="-2.413" y="-2.921"/>
-</polygon>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="LED-GREEN" prefix="D" uservalue="yes">
-<description>&lt;h3&gt;Green SMD LED&lt;/h3&gt;
-&lt;p&gt;Used in manufacturing of various products at SparkFun&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;Packages:&lt;/b&gt;
-&lt;ul&gt;&lt;li&gt;&lt;b&gt;0603&lt;/b&gt; - SMD 0603 package &lt;a href="http://www.futureelectronics.com/en/technologies/semiconductors/optoelectronics/leds/Pages/9894312-LTST-C190GKT.aspx?CrossPart=HSMG-C190&amp;IM=0"&gt;[Product Link]&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;LilyPad 1206&lt;/b&gt; - SMD1206 LilyPad package &lt;a href="http://www.futureelectronics.com/en/Technologies/Product.aspx?ProductID=IN150NGHARVATEKCORPORATION2049943&amp;IM=0"&gt;[Product Link]&lt;/li&gt;
-&lt;li&gt;&lt;b&gt; 1206&lt;/b&gt; - SMD1206  package &lt;a href=http://www.futureelectronics.com/en/technologies/semiconductors/optoelectronics/leds/Pages/8315665-LTST-C150KGKT.aspx?IM=0"&gt;[Product Link]&lt;/li&gt;
-&lt;li&gt;&lt;b&gt; 1206 Bottom Mount&lt;/b&gt; -SMD 1206 Bottom Mount &lt;a href=http://www.digikey.com/product-detail/en/lite-on-inc/LTST-C230KGKT/160-1456-1-ND/386854"&gt;[Product Link]&lt;/li&gt;
-&lt;ul&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
-&lt;ul&gt;&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/821”&gt;Pro Mini 328 -5V&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/12757”&gt;RedBoard&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13720”&gt;MP3 Trigger&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/11076”&gt;Makey Makey&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="LED" x="0" y="0"/>
-</gates>
-<devices>
-<device name="0603" package="LED-0603">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="DIO-00821" constant="no"/>
-<attribute name="VALUE" value="GREEN" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="LILYPAD" package="LED-1206">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="DIO-09910"/>
-<attribute name="VALUE" value="GREEN" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="1206" package="LED-1206">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="DIO-00862" constant="no"/>
-<attribute name="VALUE" value="GREEN" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="1206-BOTTOM" package="LED-1206-BOTTOM">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="DIO-11076" constant="no"/>
-<attribute name="VALUE" value="Green" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_HIDDENSILK" package="LED-1206-HIDDENSILK">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="DIO-00862" constant="no"/>
-<attribute name="VALUE" value="GREEN" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-0603-WE" package="LED-0603">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="DIO-16512" constant="no"/>
-<attribute name="VALUE" value="Green" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="LED" prefix="D" uservalue="yes">
-<description>&lt;b&gt;LED (Generic)&lt;/b&gt;
-&lt;p&gt;Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LEDs. Generic LEDs with no color specified.&lt;/p&gt;</description>
-<gates>
-<gate name="D1" symbol="LED" x="0" y="0"/>
-</gates>
-<devices>
-<device name="5MM" package="LED_5MM">
-<connects>
-<connect gate="D1" pin="A" pad="A"/>
-<connect gate="D1" pin="C" pad="K"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="3MM" package="LED_3MM">
-<connects>
-<connect gate="D1" pin="A" pad="A"/>
-<connect gate="D1" pin="C" pad="K"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="DIO-08794" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="1206" package="LED-1206">
-<connects>
-<connect gate="D1" pin="A" pad="A"/>
-<connect gate="D1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="0603" package="LED-0603">
-<connects>
-<connect gate="D1" pin="A" pad="A"/>
-<connect gate="D1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="10MM" package="LED_10MM">
-<connects>
-<connect gate="D1" pin="A" pad="A"/>
-<connect gate="D1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-FKIT-1206" package="FKIT-LED-1206">
-<connects>
-<connect gate="D1" pin="A" pad="A"/>
-<connect gate="D1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-3MM-NO_SILK" package="LED_3MM-NS">
-<connects>
-<connect gate="D1" pin="A" pad="A"/>
-<connect gate="D1" pin="C" pad="K"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="5MM-KIT" package="LED_5MM-KIT">
-<connects>
-<connect gate="D1" pin="A" pad="A"/>
-<connect gate="D1" pin="C" pad="K"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="1206-BOTTOM" package="LED-1206-BOTTOM">
-<connects>
-<connect gate="D1" pin="A" pad="A"/>
-<connect gate="D1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-5MM-KIT-NO-SILK" package="LED_5MM-KIT-NO-SILK">
-<connects>
-<connect gate="D1" pin="A" pad="A"/>
-<connect gate="D1" pin="C" pad="K"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="PLCC" package="PLCC-2">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-Switches">
 <description>&lt;h3&gt;SparkFun Switches, Buttons, Encoders&lt;/h3&gt;
 In this library you'll find switches, buttons, joysticks, and anything that moves to create or disrupt an electrical connection.
@@ -2043,7 +1433,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 </library>
 <library name="X15-Data-Conversion-Parts">
 <packages>
-<package name="STM32F042K6T6">
+<package name="STM32F042K6T6" urn="urn:adsk.eagle:footprint:38192058/1">
 <smd name="PA3" x="0" y="0" dx="1.2" dy="0.5" layer="1" rot="R90"/>
 <smd name="PA4" x="0.8" y="0" dx="1.2" dy="0.5" layer="1" rot="R90"/>
 <smd name="PA5" x="1.6" y="0" dx="1.2" dy="0.5" layer="1" rot="R90"/>
@@ -2084,7 +1474,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <text x="4.8" y="-1.4" size="0.6096" layer="25">&gt;NAME</text>
 <text x="-0.8" y="9.2" size="0.6096" layer="25">&gt;VALUE</text>
 </package>
-<package name="MAX3058ASA+">
+<package name="MAX3058ASA+" urn="urn:adsk.eagle:footprint:38192057/1">
 <smd name="TXD" x="0" y="0" dx="1.05" dy="0.42" layer="1"/>
 <smd name="GND" x="0" y="-1.27" dx="1.05" dy="0.42" layer="1"/>
 <smd name="VCC" x="0" y="-2.54" dx="1.05" dy="0.42" layer="1"/>
@@ -2101,7 +1491,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <text x="0.381" y="-5.207" size="0.8" layer="25">&gt;NAME</text>
 <text x="0.381" y="0.762" size="0.8" layer="27">&gt;VALUE</text>
 </package>
-<package name="SAMTEC-CLT-107-01-X-D-DATACONV">
+<package name="SAMTEC-CLT-107-01-X-D-DATACONV" urn="urn:adsk.eagle:footprint:38192060/1">
 <description>translated Allegro footprint</description>
 <text x="-6.915" y="3.317" size="1.016" layer="25">&gt;NAME</text>
 <circle x="-6" y="1.003" radius="0.671" width="0" layer="30"/>
@@ -2111,32 +1501,6 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <circle x="2" y="1.003" radius="0.671" width="0" layer="30"/>
 <circle x="4" y="1.003" radius="0.671" width="0" layer="30"/>
 <circle x="6" y="1.003" radius="0.671" width="0" layer="30"/>
-<wire x1="-7.62" y1="-2.794" x2="7.62" y2="-2.794" width="0.1524" layer="40"/>
-<wire x1="7.62" y1="-2.794" x2="7.62" y2="2.794" width="0.1524" layer="40"/>
-<wire x1="7.62" y1="2.794" x2="-7.62" y2="2.794" width="0.1524" layer="40"/>
-<wire x1="-7.62" y1="2.794" x2="-7.62" y2="-2.794" width="0.1524" layer="40"/>
-<wire x1="7.747" y1="-20.828" x2="7.747" y2="2.921" width="0.1524" layer="25"/>
-<wire x1="-7.747" y1="-20.828" x2="-7.747" y2="2.921" width="0.1524" layer="25"/>
-<wire x1="-7.747" y1="2.921" x2="7.747" y2="2.921" width="0.1524" layer="25"/>
-<wire x1="-7.747" y1="-20.828" x2="7.747" y2="-20.828" width="0.1524" layer="25"/>
-<pad name="2" x="-6" y="-1" drill="0.89" diameter="1.49" stop="no"/>
-<pad name="1" x="-6" y="1" drill="0.89" diameter="1.49" stop="no"/>
-<pad name="4" x="-4" y="-1" drill="0.89" diameter="1.49" stop="no"/>
-<pad name="3" x="-4" y="1" drill="0.89" diameter="1.49" stop="no"/>
-<pad name="6" x="-2" y="-1" drill="0.89" diameter="1.49" stop="no"/>
-<pad name="5" x="-2" y="1" drill="0.89" diameter="1.49" stop="no"/>
-<pad name="8" x="0" y="-1" drill="0.89" diameter="1.49" stop="no"/>
-<pad name="7" x="0" y="1" drill="0.89" diameter="1.49" stop="no"/>
-<pad name="10" x="2" y="-1" drill="0.89" diameter="1.49" stop="no"/>
-<pad name="9" x="2" y="1" drill="0.89" diameter="1.49" stop="no"/>
-<pad name="12" x="4" y="-1" drill="0.89" diameter="1.49" stop="no"/>
-<pad name="11" x="4" y="1" drill="0.89" diameter="1.49" stop="no"/>
-<pad name="14" x="6" y="-1" drill="0.89" diameter="1.49" stop="no"/>
-<pad name="13" x="6" y="1" drill="0.89" diameter="1.49" stop="no"/>
-<wire x1="-7.239" y1="2.54" x2="7.239" y2="2.54" width="0.1524" layer="26"/>
-<wire x1="7.239" y1="2.54" x2="7.239" y2="-2.54" width="0.1524" layer="26"/>
-<wire x1="7.239" y1="-2.54" x2="-7.239" y2="-2.54" width="0.1524" layer="26"/>
-<wire x1="-7.239" y1="-2.54" x2="-7.239" y2="2.54" width="0.1524" layer="26"/>
 <circle x="-6" y="-1.029" radius="0.671" width="0" layer="30"/>
 <circle x="-4" y="-1.029" radius="0.671" width="0" layer="30"/>
 <circle x="-2" y="-1.029" radius="0.671" width="0" layer="30"/>
@@ -2158,8 +1522,34 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <circle x="2" y="-1.029" radius="0.671" width="0" layer="29"/>
 <circle x="4" y="-1.029" radius="0.671" width="0" layer="29"/>
 <circle x="6" y="-1.029" radius="0.671" width="0" layer="29"/>
+<wire x1="-7.62" y1="-2.794" x2="7.62" y2="-2.794" width="0.1524" layer="40"/>
+<wire x1="7.62" y1="-2.794" x2="7.62" y2="2.794" width="0.1524" layer="40"/>
+<wire x1="7.62" y1="2.794" x2="-7.62" y2="2.794" width="0.1524" layer="40"/>
+<wire x1="-7.62" y1="2.794" x2="-7.62" y2="-2.794" width="0.1524" layer="40"/>
+<wire x1="7.747" y1="-20.828" x2="7.747" y2="2.921" width="0.1524" layer="25"/>
+<wire x1="-7.747" y1="-20.828" x2="-7.747" y2="2.921" width="0.1524" layer="25"/>
+<wire x1="-7.747" y1="2.921" x2="7.747" y2="2.921" width="0.1524" layer="25"/>
+<wire x1="-7.747" y1="-20.828" x2="7.747" y2="-20.828" width="0.1524" layer="25"/>
+<wire x1="-7.239" y1="2.54" x2="7.239" y2="2.54" width="0.1524" layer="26"/>
+<wire x1="7.239" y1="2.54" x2="7.239" y2="-2.54" width="0.1524" layer="26"/>
+<wire x1="7.239" y1="-2.54" x2="-7.239" y2="-2.54" width="0.1524" layer="26"/>
+<wire x1="-7.239" y1="-2.54" x2="-7.239" y2="2.54" width="0.1524" layer="26"/>
+<pad name="2" x="-6" y="-1" drill="0.89" diameter="1.49" stop="no"/>
+<pad name="1" x="-6" y="1" drill="0.89" diameter="1.49" stop="no"/>
+<pad name="4" x="-4" y="-1" drill="0.89" diameter="1.49" stop="no"/>
+<pad name="3" x="-4" y="1" drill="0.89" diameter="1.49" stop="no"/>
+<pad name="6" x="-2" y="-1" drill="0.89" diameter="1.49" stop="no"/>
+<pad name="5" x="-2" y="1" drill="0.89" diameter="1.49" stop="no"/>
+<pad name="8" x="0" y="-1" drill="0.89" diameter="1.49" stop="no"/>
+<pad name="7" x="0" y="1" drill="0.89" diameter="1.49" stop="no"/>
+<pad name="10" x="2" y="-1" drill="0.89" diameter="1.49" stop="no"/>
+<pad name="9" x="2" y="1" drill="0.89" diameter="1.49" stop="no"/>
+<pad name="12" x="4" y="-1" drill="0.89" diameter="1.49" stop="no"/>
+<pad name="11" x="4" y="1" drill="0.89" diameter="1.49" stop="no"/>
+<pad name="14" x="6" y="-1" drill="0.89" diameter="1.49" stop="no"/>
+<pad name="13" x="6" y="1" drill="0.89" diameter="1.49" stop="no"/>
 </package>
-<package name="1X05" urn="urn:adsk.eagle:footprint:37722/1" locally_modified="yes">
+<package name="1X05" urn="urn:adsk.eagle:footprint:38192066/1">
 <description>&lt;h3&gt;Plated Through Hole - 5 Pin&lt;/h3&gt;
 &lt;p&gt;Specifications:
 &lt;ul&gt;&lt;li&gt;Pin count:5&lt;/li&gt;
@@ -2213,7 +1603,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.524" y="-2.286" size="0.6096" layer="25">&gt;VALUE</text>
 </package>
-<package name="XTAL_ECS-80-18-4X">
+<package name="XTAL_ECS-80-18-4X" urn="urn:adsk.eagle:footprint:38192056/1">
 <wire x1="5.675" y1="1.01" x2="5.675" y2="-1.01" width="0.127" layer="51"/>
 <wire x1="5.675" y1="-1.01" x2="4.405" y2="-2.33" width="0.127" layer="51" curve="-90"/>
 <wire x1="4.405" y1="-2.33" x2="-4.405" y2="-2.33" width="0.127" layer="51"/>
@@ -2243,9 +1633,113 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <pad name="1" x="-2.44" y="0" drill="0.63" diameter="1.03"/>
 <pad name="2" x="2.44" y="0" drill="0.63" diameter="1.03"/>
 </package>
+<package name="LED_05452V_VCC">
+<smd name="1" x="-0.9779" y="0" dx="0.762" dy="1.2446" layer="1"/>
+<smd name="2" x="0.9779" y="0" dx="0.762" dy="1.2446" layer="1"/>
+<wire x1="0" y1="0.6223" x2="3.9243" y2="0.6223" width="0.1524" layer="47"/>
+<wire x1="0" y1="-0.6223" x2="3.9243" y2="-0.6223" width="0.1524" layer="47"/>
+<wire x1="3.5433" y1="0.6223" x2="3.5433" y2="1.8923" width="0.1524" layer="47"/>
+<wire x1="3.5433" y1="-0.6223" x2="3.5433" y2="-1.8923" width="0.1524" layer="47"/>
+<wire x1="3.5433" y1="0.6223" x2="3.4163" y2="0.8763" width="0.1524" layer="47"/>
+<wire x1="3.5433" y1="0.6223" x2="3.6703" y2="0.8763" width="0.1524" layer="47"/>
+<wire x1="3.4163" y1="0.8763" x2="3.6703" y2="0.8763" width="0.1524" layer="47"/>
+<wire x1="3.5433" y1="-0.6223" x2="3.4163" y2="-0.8763" width="0.1524" layer="47"/>
+<wire x1="3.5433" y1="-0.6223" x2="3.6703" y2="-0.8763" width="0.1524" layer="47"/>
+<wire x1="3.4163" y1="-0.8763" x2="3.6703" y2="-0.8763" width="0.1524" layer="47"/>
+<wire x1="-1.0033" y1="0" x2="-1.0033" y2="3.5433" width="0.1524" layer="47"/>
+<wire x1="1.0033" y1="0" x2="1.0033" y2="3.5433" width="0.1524" layer="47"/>
+<wire x1="-1.0033" y1="3.1623" x2="-2.2733" y2="3.1623" width="0.1524" layer="47"/>
+<wire x1="1.0033" y1="3.1623" x2="2.2733" y2="3.1623" width="0.1524" layer="47"/>
+<wire x1="-1.0033" y1="3.1623" x2="-1.2573" y2="3.2893" width="0.1524" layer="47"/>
+<wire x1="-1.0033" y1="3.1623" x2="-1.2573" y2="3.0353" width="0.1524" layer="47"/>
+<wire x1="-1.2573" y1="3.2893" x2="-1.2573" y2="3.0353" width="0.1524" layer="47"/>
+<wire x1="1.0033" y1="3.1623" x2="1.2573" y2="3.2893" width="0.1524" layer="47"/>
+<wire x1="1.0033" y1="3.1623" x2="1.2573" y2="3.0353" width="0.1524" layer="47"/>
+<wire x1="1.2573" y1="3.2893" x2="1.2573" y2="3.0353" width="0.1524" layer="47"/>
+<wire x1="0.5969" y1="0" x2="0.5969" y2="-3.5433" width="0.1524" layer="47"/>
+<wire x1="1.0033" y1="0" x2="1.0033" y2="-3.5433" width="0.1524" layer="47"/>
+<wire x1="0.5969" y1="-3.1623" x2="-0.6731" y2="-3.1623" width="0.1524" layer="47"/>
+<wire x1="1.0033" y1="-3.1623" x2="2.2733" y2="-3.1623" width="0.1524" layer="47"/>
+<wire x1="0.5969" y1="-3.1623" x2="0.3429" y2="-3.0353" width="0.1524" layer="47"/>
+<wire x1="0.5969" y1="-3.1623" x2="0.3429" y2="-3.2893" width="0.1524" layer="47"/>
+<wire x1="0.3429" y1="-3.0353" x2="0.3429" y2="-3.2893" width="0.1524" layer="47"/>
+<wire x1="1.0033" y1="-3.1623" x2="1.2573" y2="-3.0353" width="0.1524" layer="47"/>
+<wire x1="1.0033" y1="-3.1623" x2="1.2573" y2="-3.2893" width="0.1524" layer="47"/>
+<wire x1="1.2573" y1="-3.0353" x2="1.2573" y2="-3.2893" width="0.1524" layer="47"/>
+<text x="-15.2035" y="-7.4803" size="1.27" layer="47" ratio="6">Default Padstyle: RX30Y49D0T</text>
+<text x="-18.0848" y="-10.0203" size="1.27" layer="47" ratio="6">Alternate 1 Padstyle: OX60Y90D30P</text>
+<text x="-18.0848" y="-12.5603" size="1.27" layer="47" ratio="6">Alternate 2 Padstyle: OX90Y60D30P</text>
+<text x="4.0513" y="-0.3175" size="0.635" layer="47" ratio="4">0.049in/1.245mm</text>
+<text x="-4.0424" y="3.6703" size="0.635" layer="47" ratio="4">0.079in/2.007mm</text>
+<text x="-3.2423" y="-4.3053" size="0.635" layer="47" ratio="4">0.016in/0.406mm</text>
+<wire x1="-0.2894" y1="-0.7493" x2="0.2894" y2="-0.7493" width="0.1524" layer="21"/>
+<wire x1="0.2894" y1="0.7493" x2="-0.2894" y2="0.7493" width="0.1524" layer="21"/>
+<text x="-1.7288" y="-0.635" size="1.27" layer="21" ratio="6">&gt;Value</text>
+<wire x1="-0.5969" y1="-0.6223" x2="-0.5969" y2="0.6223" width="0.1524" layer="51"/>
+<wire x1="-0.5969" y1="0.6223" x2="-1.0033" y2="0.6223" width="0.1524" layer="51"/>
+<wire x1="-1.0033" y1="0.6223" x2="-1.0033" y2="-0.6223" width="0.1524" layer="51"/>
+<wire x1="-1.0033" y1="-0.6223" x2="-0.5969" y2="-0.6223" width="0.1524" layer="51"/>
+<wire x1="0.5969" y1="0.6223" x2="0.5969" y2="-0.6223" width="0.1524" layer="51"/>
+<wire x1="0.5969" y1="-0.6223" x2="1.0033" y2="-0.6223" width="0.1524" layer="51"/>
+<wire x1="1.0033" y1="-0.6223" x2="1.0033" y2="0.6223" width="0.1524" layer="51"/>
+<wire x1="1.0033" y1="0.6223" x2="0.5969" y2="0.6223" width="0.1524" layer="51"/>
+<wire x1="-1.0033" y1="-0.6223" x2="1.0033" y2="-0.6223" width="0.1524" layer="51"/>
+<wire x1="1.0033" y1="-0.6223" x2="1.0033" y2="0.6223" width="0.1524" layer="51"/>
+<wire x1="1.0033" y1="0.6223" x2="-1.0033" y2="0.6223" width="0.1524" layer="51"/>
+<wire x1="-1.0033" y1="0.6223" x2="-1.0033" y2="-0.6223" width="0.1524" layer="51"/>
+<polygon width="0.0254" layer="41">
+<vertex x="-0.5461" y="0.6223"/>
+<vertex x="0.5461" y="0.6223"/>
+<vertex x="0.5461" y="-0.6223"/>
+<vertex x="-0.5461" y="-0.6223"/>
+</polygon>
+<polygon width="0.0254" layer="41">
+<vertex x="-0.5461" y="0.5715"/>
+<vertex x="0.5461" y="0.5715"/>
+<vertex x="0.5461" y="-0.5715"/>
+<vertex x="-0.5461" y="-0.5715"/>
+</polygon>
+<text x="-3.2712" y="-0.635" size="1.27" layer="27" ratio="6">&gt;Name</text>
+</package>
 </packages>
+<packages3d>
+<package3d name="SAMTEC-CLT-107-01-X-D-DATACONV" urn="urn:adsk.eagle:package:38192071/2" type="model">
+<description>translated Allegro footprint</description>
+<packageinstances>
+<packageinstance name="SAMTEC-CLT-107-01-X-D-DATACONV"/>
+</packageinstances>
+</package3d>
+<package3d name="XTAL_ECS-80-18-4X" urn="urn:adsk.eagle:package:38192067/2" type="model">
+<packageinstances>
+<packageinstance name="XTAL_ECS-80-18-4X"/>
+</packageinstances>
+</package3d>
+<package3d name="MAX3058ASA+" urn="urn:adsk.eagle:package:38192068/2" type="model">
+<packageinstances>
+<packageinstance name="MAX3058ASA+"/>
+</packageinstances>
+</package3d>
+<package3d name="STM32F042K6T6" urn="urn:adsk.eagle:package:38192069/2" type="model">
+<packageinstances>
+<packageinstance name="STM32F042K6T6"/>
+</packageinstances>
+</package3d>
+<package3d name="1X05" urn="urn:adsk.eagle:package:38192072/1" type="box">
+<description>&lt;h3&gt;Plated Through Hole - 5 Pin&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count:5&lt;/li&gt;
+&lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;CONN_05&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="1X05"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
-<symbol name="STM32F042K6T6">
+<symbol name="STM32F042K6T6" urn="urn:adsk.eagle:symbol:38192063/1">
 <pin name="VDD" x="-27.94" y="17.78" length="middle"/>
 <pin name="PF0-OSC_IN" x="-27.94" y="12.7" length="middle"/>
 <pin name="PF1-OSC_OUT" x="-27.94" y="7.62" length="middle"/>
@@ -2284,7 +1778,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <wire x1="25.4" y1="22.86" x2="-22.86" y2="22.86" width="0.1524" layer="94"/>
 <text x="-22.606" y="23.368" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
-<symbol name="MAX3058ASA+">
+<symbol name="MAX3058ASA+" urn="urn:adsk.eagle:symbol:38192062/1">
 <pin name="VCC" x="-12.7" y="7.62" length="middle"/>
 <pin name="TXD" x="-12.7" y="2.54" length="middle"/>
 <pin name="RXD" x="-12.7" y="-2.54" length="middle"/>
@@ -2299,13 +1793,13 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <wire x1="7.62" y1="10.16" x2="-7.62" y2="10.16" width="0.1524" layer="94"/>
 <text x="-7.62" y="10.16" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
-<symbol name="SAMTEC-CLT-107-01-X-DA">
+<symbol name="SAMTEC-CLT-107-01-X-DA" urn="urn:adsk.eagle:symbol:38192064/1">
 <text x="0" y="5.08" size="2.54" layer="95">&gt;NAME</text>
+<text x="0" y="-22.86" size="2.286" layer="95">SAMTEC-CLT-107-01-X-D</text>
 <wire x1="0" y1="5.08" x2="20.3" y2="5.08" width="0.254" layer="94"/>
 <wire x1="20.3" y1="5.08" x2="20.3" y2="-20.32" width="0.254" layer="94"/>
 <wire x1="20.3" y1="-20.32" x2="0" y2="-20.32" width="0.254" layer="94"/>
 <wire x1="0" y1="-20.32" x2="0" y2="5.08" width="0.254" layer="94"/>
-<text x="0" y="-22.86" size="2.286" layer="95">SAMTEC-CLT-107-01-X-D</text>
 <pin name="1" x="-5.08" y="0" length="middle" direction="pas"/>
 <pin name="2" x="25.4" y="0" length="middle" direction="pas" rot="R180"/>
 <pin name="3" x="-5.08" y="-2.54" length="middle" direction="pas"/>
@@ -2321,7 +1815,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <pin name="13" x="-5.08" y="-15.24" length="middle" direction="pas"/>
 <pin name="14" x="25.4" y="-15.24" length="middle" direction="pas" rot="R180"/>
 </symbol>
-<symbol name="STM_SWD_SYM">
+<symbol name="STM_SWD_SYM" urn="urn:adsk.eagle:symbol:38192065/1">
 <description>&lt;h3&gt;5 Pin Connection&lt;/h3&gt;</description>
 <wire x1="3.81" y1="-7.62" x2="-7.62" y2="-7.62" width="0.4064" layer="94"/>
 <wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.6096" layer="94"/>
@@ -2339,7 +1833,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <pin name="SWCLK" x="7.62" y="2.54" length="middle" direction="in" rot="R180"/>
 <pin name="3V3" x="7.62" y="5.08" length="middle" direction="pwr" rot="R180"/>
 </symbol>
-<symbol name="ECS-80-18-4X">
+<symbol name="ECS-80-18-4X" urn="urn:adsk.eagle:symbol:38192061/1">
 <wire x1="1.016" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
 <wire x1="-2.54" y1="0" x2="-1.016" y2="0" width="0.1524" layer="94"/>
 <wire x1="-0.381" y1="1.524" x2="-0.381" y2="-1.524" width="0.254" layer="94"/>
@@ -2353,9 +1847,34 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
 </symbol>
+<symbol name="LED">
+<pin name="2" x="0" y="0" visible="off" length="short" direction="pas"/>
+<pin name="1" x="10.16" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<wire x1="7.62" y1="0" x2="6.6802" y2="0" width="0.2032" layer="94"/>
+<wire x1="6.35" y1="1.905" x2="6.35" y2="-1.905" width="0.2032" layer="94"/>
+<wire x1="6.985" y1="0" x2="6.35" y2="0" width="0.2032" layer="94"/>
+<wire x1="3.81" y1="-1.905" x2="3.81" y2="1.905" width="0.2032" layer="94"/>
+<wire x1="3.81" y1="0" x2="2.54" y2="0" width="0.2032" layer="94"/>
+<wire x1="7.62" y1="4.445" x2="6.985" y2="3.81" width="0.2032" layer="94"/>
+<wire x1="6.985" y1="3.81" x2="5.715" y2="5.08" width="0.2032" layer="94"/>
+<wire x1="5.715" y1="3.81" x2="5.08" y2="3.175" width="0.2032" layer="94"/>
+<wire x1="5.08" y1="3.175" x2="3.81" y2="4.445" width="0.2032" layer="94"/>
+<wire x1="5.715" y1="5.08" x2="6.35" y2="5.08" width="0.2032" layer="94"/>
+<wire x1="6.35" y1="5.08" x2="5.715" y2="4.445" width="0.2032" layer="94"/>
+<wire x1="5.715" y1="4.445" x2="5.715" y2="5.08" width="0.2032" layer="94"/>
+<wire x1="3.81" y1="4.445" x2="4.445" y2="4.445" width="0.2032" layer="94"/>
+<wire x1="4.445" y1="4.445" x2="3.81" y2="3.81" width="0.2032" layer="94"/>
+<wire x1="3.81" y1="3.81" x2="3.81" y2="4.445" width="0.2032" layer="94"/>
+<wire x1="6.985" y1="2.54" x2="5.715" y2="3.81" width="0.2032" layer="94"/>
+<wire x1="3.81" y1="0" x2="6.35" y2="1.905" width="0.2032" layer="94"/>
+<wire x1="6.35" y1="-1.905" x2="3.81" y2="0" width="0.2032" layer="94"/>
+<wire x1="8.89" y1="3.175" x2="7.62" y2="4.445" width="0.2032" layer="94"/>
+<text x="-3.8831" y="-9.3599" size="3.48" layer="96" ratio="10">&gt;Value</text>
+<text x="-2.8148" y="-6.1849" size="3.48" layer="95" ratio="10">&gt;Name</text>
+</symbol>
 </symbols>
 <devicesets>
-<deviceset name="STM32F042K6T6">
+<deviceset name="STM32F042K6T6" urn="urn:adsk.eagle:component:38192075/1" locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="STM32F042K6T6" x="0" y="0"/>
 </gates>
@@ -2395,13 +1914,16 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <connect gate="G$1" pin="VSS" pad="VSS"/>
 <connect gate="G$1" pin="VSS_2" pad="VSS1"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:38192069/2"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MAX3058ASA+">
+<deviceset name="MAX3058ASA+" urn="urn:adsk.eagle:component:38192074/1" locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="MAX3058ASA+" x="0" y="0"/>
 </gates>
@@ -2417,13 +1939,16 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <connect gate="G$1" pin="TXD" pad="TXD"/>
 <connect gate="G$1" pin="VCC" pad="VCC"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:38192068/2"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="DATACONV-&gt;BACKPLANE">
+<deviceset name="DATACONV-&gt;BACKPLANE" urn="urn:adsk.eagle:component:38192077/1" locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="SAMTEC-CLT-107-01-X-DA" x="-10.16" y="7.62"/>
 </gates>
@@ -2445,13 +1970,16 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <connect gate="G$1" pin="8" pad="8"/>
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:38192071/2"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="SWD_CONN" prefix="J">
+<deviceset name="SWD_CONN" urn="urn:adsk.eagle:component:38192078/1" prefix="J">
 <gates>
 <gate name="G$1" symbol="STM_SWD_SYM" x="2.54" y="0"/>
 </gates>
@@ -2464,6 +1992,9 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <connect gate="G$1" pin="SWCLK" pad="2"/>
 <connect gate="G$1" pin="SWDIO" pad="4"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:38192072/1"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="VALUE" value="3V3 -SWCLK-GND-SWDIO- NRST"/>
@@ -2472,7 +2003,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 </device>
 </devices>
 </deviceset>
-<deviceset name="ECS-80-18-4X" prefix="Y">
+<deviceset name="ECS-80-18-4X" urn="urn:adsk.eagle:component:38192073/1" locally_modified="yes" prefix="Y">
 <description>CRYSTAL T/H </description>
 <gates>
 <gate name="G$1" symbol="ECS-80-18-4X" x="0" y="0"/>
@@ -2483,6 +2014,9 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:38192067/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value=" 8 MHz ±30ppm Crystal 18pF 80 Ohms HC-49/US "/>
@@ -2491,6 +2025,29 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <attribute name="MP" value="ECS-80-18-4X"/>
 <attribute name="PACKAGE" value="HC-49US ECS Inc."/>
 <attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/ECS-80-18-4X/?ref=eda"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LSM0805452V" prefix="LED">
+<gates>
+<gate name="A" symbol="LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="LED_05452V_VCC" package="LED_05452V_VCC">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="COPYRIGHT" value="Copyright (C) 2022 Ultra Librarian. All rights reserved." constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER_1" value="28-LSM0805452VTR-ND" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER_2" value="28-LSM0805452VCT-ND" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER_3" value="28-LSM0805452VDKR-ND" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LSM0805452V" constant="no"/>
+<attribute name="MFR_NAME" value="VCC" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -2509,7 +2066,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 </classes>
 <parts>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
-<part name="STM" library="X15-Data-Conversion-Parts" deviceset="STM32F042K6T6" device=""/>
+<part name="STM" library="X15-Data-Conversion-Parts" deviceset="STM32F042K6T6" device="" package3d_urn="urn:adsk.eagle:package:38192069/2"/>
 <part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="10k"/>
 <part name="C1" library="SparkFun-RF" deviceset="0.1UF" device="-0603-25V-5%" value="0.1uF"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -2522,30 +2079,30 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <part name="C3" library="SparkFun-RF" deviceset="0.1UF" device="-0603-25V-5%" value="0.1uF"/>
 <part name="C4" library="SparkFun-RF" deviceset="0.1UF" device="-0603-25V-5%" value="0.1uF"/>
 <part name="C5" library="SparkFun-RF" deviceset="0.1UF" device="-0603-25V-5%" value="0.1uF"/>
-<part name="D1" library="SparkFun-LED" deviceset="LED-GREEN" device="-0603-WE" value="Green"/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="S1" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-6.0X3.5MM"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R5" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="82"/>
-<part name="D3" library="SparkFun-LED" deviceset="LED" device="0603" value="Orange"/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="CONNECTOR1" library="X15-Data-Conversion-Parts" deviceset="SWD_CONN" device="" value="3V3 -SWCLK-GND-SWDIO- NRST"/>
-<part name="U$1" library="X15-Data-Conversion-Parts" deviceset="DATACONV-&gt;BACKPLANE" device=""/>
-<part name="CAN_TRANCEIVER" library="X15-Data-Conversion-Parts" deviceset="MAX3058ASA+" device=""/>
+<part name="CONNECTOR1" library="X15-Data-Conversion-Parts" deviceset="SWD_CONN" device="" package3d_urn="urn:adsk.eagle:package:38192072/1" value="3V3 -SWCLK-GND-SWDIO- NRST"/>
+<part name="U$1" library="X15-Data-Conversion-Parts" deviceset="DATACONV-&gt;BACKPLANE" device="" package3d_urn="urn:adsk.eagle:package:38192071/2"/>
+<part name="CAN_TRANCEIVER" library="X15-Data-Conversion-Parts" deviceset="MAX3058ASA+" device="" package3d_urn="urn:adsk.eagle:package:38192068/2"/>
 <part name="C6" library="SparkFun-RF" deviceset="0.1UF" device="-0603-25V-5%" value="0.1uF"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R6" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="120"/>
-<part name="R7" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="120"/>
 <part name="R9" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="0"/>
 <part name="C7" library="SparkFun-RF" deviceset="0.1UF" device="-0603-25V-5%" value="18pF"/>
 <part name="C8" library="SparkFun-RF" deviceset="0.1UF" device="-0603-25V-5%" value="18pF"/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Y1" library="X15-Data-Conversion-Parts" deviceset="ECS-80-18-4X" device=""/>
+<part name="Y1" library="X15-Data-Conversion-Parts" deviceset="ECS-80-18-4X" device="" package3d_urn="urn:adsk.eagle:package:38192067/2"/>
 <part name="R8" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="0"/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R10" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="30k"/>
+<part name="LED1" library="X15-Data-Conversion-Parts" deviceset="LSM0805452V" device="LED_05452V_VCC"/>
+<part name="LED2" library="X15-Data-Conversion-Parts" deviceset="LSM0805452V" device="LED_05452V_VCC"/>
+<part name="R6" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="120"/>
+<part name="R7" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="120"/>
 </parts>
 <sheets>
 <sheet>
@@ -2612,12 +2169,8 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <attribute name="NAME" x="230.124" y="142.621" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="230.124" y="137.541" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="D1" gate="G$1" x="144.78" y="165.1" smashed="yes">
-<attribute name="NAME" x="141.351" y="160.528" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="146.685" y="160.528" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
-</instance>
-<instance part="GND5" gate="1" x="144.78" y="154.94" smashed="yes">
-<attribute name="VALUE" x="142.24" y="152.4" size="1.778" layer="96"/>
+<instance part="GND5" gate="1" x="144.78" y="152.4" smashed="yes">
+<attribute name="VALUE" x="142.24" y="149.86" size="1.778" layer="96"/>
 </instance>
 <instance part="S1" gate="G$1" x="33.02" y="121.92" smashed="yes" rot="R90">
 <attribute name="NAME" x="31.496" y="121.92" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
@@ -2629,10 +2182,6 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <instance part="R5" gate="G$1" x="17.78" y="45.72" smashed="yes" rot="R90">
 <attribute name="NAME" x="16.256" y="45.72" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="19.304" y="45.72" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
-</instance>
-<instance part="D3" gate="D1" x="17.78" y="35.56" smashed="yes">
-<attribute name="NAME" x="14.351" y="30.988" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="19.685" y="30.988" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
 <instance part="GND6" gate="1" x="17.78" y="22.86" smashed="yes">
 <attribute name="VALUE" x="15.24" y="20.32" size="1.778" layer="96"/>
@@ -2655,14 +2204,6 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 </instance>
 <instance part="GND8" gate="1" x="58.42" y="17.78" smashed="yes">
 <attribute name="VALUE" x="55.88" y="15.24" size="1.778" layer="96"/>
-</instance>
-<instance part="R6" gate="G$1" x="106.68" y="35.56" smashed="yes">
-<attribute name="NAME" x="106.68" y="37.084" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="106.68" y="34.036" size="1.778" layer="96" font="vector" align="top-center"/>
-</instance>
-<instance part="R7" gate="G$1" x="106.68" y="25.4" smashed="yes">
-<attribute name="NAME" x="106.68" y="26.924" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="106.68" y="23.876" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="R9" gate="G$1" x="147.32" y="40.64" smashed="yes" rot="R90">
 <attribute name="NAME" x="145.796" y="40.64" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
@@ -2696,6 +2237,22 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <attribute name="NAME" x="96.52" y="44.704" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="96.52" y="41.656" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
+<instance part="LED1" gate="A" x="17.78" y="27.94" smashed="yes" rot="R90">
+<attribute name="VALUE" x="27.1399" y="24.0569" size="3.48" layer="96" ratio="10" rot="R90"/>
+<attribute name="NAME" x="23.9649" y="25.1252" size="3.48" layer="95" ratio="10" rot="R90"/>
+</instance>
+<instance part="LED2" gate="A" x="144.78" y="157.48" smashed="yes" rot="R90">
+<attribute name="VALUE" x="154.1399" y="153.5969" size="3.48" layer="96" ratio="10" rot="R90"/>
+<attribute name="NAME" x="150.9649" y="154.6652" size="3.48" layer="95" ratio="10" rot="R90"/>
+</instance>
+<instance part="R6" gate="G$1" x="111.76" y="38.1" smashed="yes">
+<attribute name="NAME" x="111.76" y="39.624" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="111.76" y="36.576" size="1.778" layer="96" font="vector" align="top-center"/>
+</instance>
+<instance part="R7" gate="G$1" x="111.76" y="25.4" smashed="yes">
+<attribute name="NAME" x="111.76" y="26.924" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="111.76" y="23.876" size="1.778" layer="96" font="vector" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -2722,11 +2279,6 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <junction x="88.9" y="165.1"/>
 </segment>
 <segment>
-<pinref part="GND5" gate="1" pin="GND"/>
-<pinref part="D1" gate="G$1" pin="C"/>
-<wire x1="144.78" y1="157.48" x2="144.78" y2="160.02" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="187.96" y1="137.16" x2="187.96" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="132.08" x2="200.66" y2="132.08" width="0.1524" layer="91"/>
@@ -2743,11 +2295,6 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <wire x1="187.96" y1="132.08" x2="187.96" y2="129.54" width="0.1524" layer="91"/>
 <junction x="187.96" y="132.08"/>
 <pinref part="GND4" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="GND6" gate="1" pin="GND"/>
-<pinref part="D3" gate="D1" pin="C"/>
-<wire x1="17.78" y1="25.4" x2="17.78" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="CONNECTOR1" gate="G$1" pin="GND"/>
@@ -2801,6 +2348,16 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <pinref part="R10" gate="G$1" pin="2"/>
 <pinref part="GND10" gate="1" pin="GND"/>
 <wire x1="101.6" y1="43.18" x2="104.14" y2="43.18" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND6" gate="1" pin="GND"/>
+<pinref part="LED1" gate="A" pin="2"/>
+<wire x1="17.78" y1="25.4" x2="17.78" y2="27.94" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND5" gate="1" pin="GND"/>
+<pinref part="LED2" gate="A" pin="2"/>
+<wire x1="144.78" y1="154.94" x2="144.78" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="NRST" class="0">
@@ -2878,9 +2435,9 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 </net>
 <net name="N$11" class="0">
 <segment>
-<pinref part="D1" gate="G$1" pin="A"/>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="144.78" y1="167.64" x2="137.16" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="LED2" gate="A" pin="1"/>
 </segment>
 </net>
 <net name="3V3" class="0">
@@ -3057,7 +2614,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="17.78" y1="38.1" x2="17.78" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="D3" gate="D1" pin="A"/>
+<pinref part="LED1" gate="A" pin="1"/>
 </segment>
 </net>
 <net name="CAN_L" class="0">
@@ -3068,13 +2625,13 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 </segment>
 <segment>
 <pinref part="CAN_TRANCEIVER" gate="G$1" pin="CANL"/>
-<wire x1="88.9" y1="33.02" x2="101.6" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="33.02" x2="101.6" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="33.02" x2="101.6" y2="35.56" width="0.1524" layer="91"/>
-<junction x="101.6" y="33.02"/>
-<pinref part="R6" gate="G$1" pin="1"/>
-<pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="88.9" y1="33.02" x2="106.68" y2="33.02" width="0.1524" layer="91"/>
 <label x="93.98" y="33.02" size="1.778" layer="95"/>
+<pinref part="R7" gate="G$1" pin="1"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="106.68" y1="25.4" x2="106.68" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="33.02" x2="106.68" y2="38.1" width="0.1524" layer="91"/>
+<junction x="106.68" y="33.02"/>
 </segment>
 </net>
 <net name="CAN_H" class="0">
@@ -3084,16 +2641,16 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <label x="236.22" y="38.1" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="R7" gate="G$1" pin="2"/>
-<pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="111.76" y1="25.4" x2="111.76" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="CAN_TRANCEIVER" gate="G$1" pin="CANH"/>
-<wire x1="111.76" y1="33.02" x2="111.76" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="38.1" x2="116.84" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="38.1" x2="116.84" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="33.02" x2="111.76" y2="33.02" width="0.1524" layer="91"/>
-<junction x="111.76" y="33.02"/>
+<wire x1="88.9" y1="38.1" x2="104.14" y2="38.1" width="0.1524" layer="91"/>
 <label x="93.98" y="38.1" size="1.778" layer="95"/>
+<wire x1="104.14" y1="38.1" x2="104.14" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="R7" gate="G$1" pin="2"/>
+<wire x1="116.84" y1="38.1" x2="116.84" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="35.56" x2="116.84" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="35.56" x2="116.84" y2="35.56" width="0.1524" layer="91"/>
+<junction x="116.84" y="35.56"/>
 </segment>
 </net>
 <net name="OSC_IN" class="0">
@@ -3162,6 +2719,11 @@ with this version.
 Since Version 8.3, EAGLE supports URNs for individual library
 assets (packages, symbols, and devices). The URNs of those assets
 will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
 </note>
 </compatibility>
 </eagle>
