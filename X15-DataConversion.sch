@@ -1603,36 +1603,6 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.524" y="-2.286" size="0.6096" layer="25">&gt;VALUE</text>
 </package>
-<package name="XTAL_ECS-80-18-4X" urn="urn:adsk.eagle:footprint:38192056/1">
-<wire x1="5.675" y1="1.01" x2="5.675" y2="-1.01" width="0.127" layer="51"/>
-<wire x1="5.675" y1="-1.01" x2="4.405" y2="-2.33" width="0.127" layer="51" curve="-90"/>
-<wire x1="4.405" y1="-2.33" x2="-4.405" y2="-2.33" width="0.127" layer="51"/>
-<wire x1="-4.405" y1="-2.33" x2="-5.675" y2="-1.01" width="0.127" layer="51" curve="-90"/>
-<wire x1="-5.675" y1="-1.01" x2="-5.675" y2="1.01" width="0.127" layer="51"/>
-<wire x1="-5.675" y1="1.01" x2="-4.405" y2="2.33" width="0.127" layer="51" curve="-90"/>
-<wire x1="-4.405" y1="2.33" x2="4.405" y2="2.33" width="0.127" layer="51"/>
-<wire x1="4.405" y1="2.33" x2="5.675" y2="1.01" width="0.127" layer="51" curve="-90"/>
-<wire x1="5.675" y1="1.01" x2="5.675" y2="-1.01" width="0.127" layer="21"/>
-<wire x1="5.675" y1="-1.01" x2="4.405" y2="-2.33" width="0.127" layer="21" curve="-90"/>
-<wire x1="4.405" y1="-2.33" x2="-4.405" y2="-2.33" width="0.127" layer="21"/>
-<wire x1="-4.405" y1="-2.33" x2="-5.675" y2="-1.01" width="0.127" layer="21" curve="-90"/>
-<wire x1="-5.675" y1="-1.01" x2="-5.675" y2="1.01" width="0.127" layer="21"/>
-<wire x1="-5.675" y1="1.01" x2="-4.405" y2="2.33" width="0.127" layer="21" curve="-90"/>
-<wire x1="-4.405" y1="2.33" x2="4.405" y2="2.33" width="0.127" layer="21"/>
-<wire x1="4.405" y1="2.33" x2="5.675" y2="1.01" width="0.127" layer="21" curve="-90"/>
-<wire x1="6" y1="1.01" x2="6" y2="-1.01" width="0.05" layer="39"/>
-<wire x1="6" y1="-1.01" x2="4.43" y2="-2.58" width="0.05" layer="39" curve="-90"/>
-<wire x1="4.43" y1="-2.58" x2="-4.43" y2="-2.58" width="0.05" layer="39"/>
-<wire x1="-4.43" y1="-2.58" x2="-6" y2="-1.01" width="0.05" layer="39" curve="-90"/>
-<wire x1="-6" y1="-1.01" x2="-6" y2="1.01" width="0.05" layer="39"/>
-<wire x1="-6" y1="1.01" x2="-4.43" y2="2.58" width="0.05" layer="39" curve="-90"/>
-<wire x1="-4.43" y1="2.58" x2="4.43" y2="2.58" width="0.05" layer="39"/>
-<wire x1="4.43" y1="2.58" x2="6" y2="1.01" width="0.05" layer="39" curve="-90"/>
-<text x="-5.774659375" y="3.00241875" size="1.27103125" layer="25">&gt;NAME</text>
-<text x="-5.78111875" y="-4.38543125" size="1.27245" layer="27">&gt;VALUE</text>
-<pad name="1" x="-2.44" y="0" drill="0.63" diameter="1.03"/>
-<pad name="2" x="2.44" y="0" drill="0.63" diameter="1.03"/>
-</package>
 <package name="LED_05452V_VCC">
 <smd name="1" x="-0.9779" y="0" dx="0.762" dy="1.2446" layer="1"/>
 <smd name="2" x="0.9779" y="0" dx="0.762" dy="1.2446" layer="1"/>
@@ -1707,11 +1677,6 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <description>translated Allegro footprint</description>
 <packageinstances>
 <packageinstance name="SAMTEC-CLT-107-01-X-D-DATACONV"/>
-</packageinstances>
-</package3d>
-<package3d name="XTAL_ECS-80-18-4X" urn="urn:adsk.eagle:package:38192067/2" type="model">
-<packageinstances>
-<packageinstance name="XTAL_ECS-80-18-4X"/>
 </packageinstances>
 </package3d>
 <package3d name="MAX3058ASA+" urn="urn:adsk.eagle:package:38192068/2" type="model">
@@ -1832,20 +1797,6 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <pin name="GND" x="7.62" y="0" length="middle" direction="pwr" rot="R180"/>
 <pin name="SWCLK" x="7.62" y="2.54" length="middle" direction="in" rot="R180"/>
 <pin name="3V3" x="7.62" y="5.08" length="middle" direction="pwr" rot="R180"/>
-</symbol>
-<symbol name="ECS-80-18-4X" urn="urn:adsk.eagle:symbol:38192061/1">
-<wire x1="1.016" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-1.016" y2="0" width="0.1524" layer="94"/>
-<wire x1="-0.381" y1="1.524" x2="-0.381" y2="-1.524" width="0.254" layer="94"/>
-<wire x1="-0.381" y1="-1.524" x2="0.381" y2="-1.524" width="0.254" layer="94"/>
-<wire x1="0.381" y1="-1.524" x2="0.381" y2="1.524" width="0.254" layer="94"/>
-<wire x1="0.381" y1="1.524" x2="-0.381" y2="1.524" width="0.254" layer="94"/>
-<wire x1="1.016" y1="1.778" x2="1.016" y2="-1.778" width="0.254" layer="94"/>
-<wire x1="-1.016" y1="1.778" x2="-1.016" y2="-1.778" width="0.254" layer="94"/>
-<text x="-4.57693125" y="2.288459375" size="1.77991875" layer="95">&gt;NAME</text>
-<text x="-4.32303125" y="-4.57733125" size="1.78006875" layer="96">&gt;VALUE</text>
-<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
 </symbol>
 <symbol name="LED">
 <pin name="2" x="0" y="0" visible="off" length="short" direction="pas"/>
@@ -2003,33 +1954,6 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 </device>
 </devices>
 </deviceset>
-<deviceset name="ECS-80-18-4X" urn="urn:adsk.eagle:component:38192073/1" locally_modified="yes" prefix="Y">
-<description>CRYSTAL T/H </description>
-<gates>
-<gate name="G$1" symbol="ECS-80-18-4X" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="XTAL_ECS-80-18-4X">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:38192067/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value=" 8 MHz ±30ppm Crystal 18pF 80 Ohms HC-49/US "/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="X1093-ND"/>
-<attribute name="MF" value="ECS Inc."/>
-<attribute name="MP" value="ECS-80-18-4X"/>
-<attribute name="PACKAGE" value="HC-49US ECS Inc."/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/ECS-80-18-4X/?ref=eda"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="LSM0805452V" prefix="LED">
 <gates>
 <gate name="A" symbol="LED" x="0" y="0"/>
@@ -2090,12 +2014,6 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <part name="C6" library="SparkFun-RF" deviceset="0.1UF" device="-0603-25V-5%" value="0.1uF"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R9" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="0"/>
-<part name="C7" library="SparkFun-RF" deviceset="0.1UF" device="-0603-25V-5%" value="18pF"/>
-<part name="C8" library="SparkFun-RF" deviceset="0.1UF" device="-0603-25V-5%" value="18pF"/>
-<part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Y1" library="X15-Data-Conversion-Parts" deviceset="ECS-80-18-4X" device="" package3d_urn="urn:adsk.eagle:package:38192067/2"/>
-<part name="R8" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="0"/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R10" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="30k"/>
@@ -2110,7 +2028,6 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <text x="10.16" y="63.5" size="1.778" layer="91">Power Indication LED</text>
 <text x="205.74" y="81.28" size="1.778" layer="91">Connectors</text>
 <text x="66.04" y="50.8" size="1.778" layer="91">CAN</text>
-<text x="139.7" y="63.5" size="1.778" layer="91">Oscillator</text>
 <text x="190.5" y="152.4" size="1.778" layer="91">Pin 1 (VDD)</text>
 <text x="210.82" y="152.4" size="1.778" layer="91">Pin 17 (VDDIO2)</text>
 <text x="231.14" y="149.86" size="1.778" layer="91">Pin 5 (VDDA)</text>
@@ -2204,28 +2121,6 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 </instance>
 <instance part="GND8" gate="1" x="58.42" y="17.78" smashed="yes">
 <attribute name="VALUE" x="55.88" y="15.24" size="1.778" layer="96"/>
-</instance>
-<instance part="R9" gate="G$1" x="147.32" y="40.64" smashed="yes" rot="R90">
-<attribute name="NAME" x="145.796" y="40.64" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="148.844" y="40.64" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
-</instance>
-<instance part="C7" gate="G$1" x="137.16" y="22.86" smashed="yes">
-<attribute name="NAME" x="138.684" y="25.781" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="138.684" y="20.701" size="1.778" layer="96" font="vector"/>
-</instance>
-<instance part="C8" gate="G$1" x="147.32" y="22.86" smashed="yes">
-<attribute name="NAME" x="148.844" y="25.781" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="148.844" y="20.701" size="1.778" layer="96" font="vector"/>
-</instance>
-<instance part="GND11" gate="1" x="142.24" y="12.7" smashed="yes">
-<attribute name="VALUE" x="139.7" y="10.16" size="1.778" layer="96"/>
-</instance>
-<instance part="Y1" gate="G$1" x="142.24" y="33.02" smashed="yes">
-<attribute name="VALUE" x="137.14506875" y="29.19645" size="1.78431875" layer="96"/>
-</instance>
-<instance part="R8" gate="G$1" x="137.16" y="40.64" smashed="yes" rot="R90">
-<attribute name="NAME" x="135.636" y="40.64" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="138.684" y="40.64" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
 <instance part="GND9" gate="1" x="93.98" y="17.78" smashed="yes">
 <attribute name="VALUE" x="91.44" y="15.24" size="1.778" layer="96"/>
@@ -2321,17 +2216,6 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <wire x1="63.5" y1="27.94" x2="58.42" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="27.94" x2="58.42" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="GND8" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="C7" gate="G$1" pin="2"/>
-<wire x1="137.16" y1="20.32" x2="137.16" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="17.78" x2="142.24" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="C8" gate="G$1" pin="2"/>
-<wire x1="142.24" y1="17.78" x2="147.32" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="17.78" x2="147.32" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="17.78" x2="142.24" y2="15.24" width="0.1524" layer="91"/>
-<junction x="142.24" y="17.78"/>
-<pinref part="GND11" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="CAN_TRANCEIVER" gate="G$1" pin="SHDN"/>
@@ -2659,42 +2543,12 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <wire x1="78.74" y1="139.7" x2="68.58" y2="139.7" width="0.1524" layer="91"/>
 <label x="58.42" y="139.7" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="R9" gate="G$1" pin="2"/>
-<wire x1="147.32" y1="45.72" x2="147.32" y2="50.8" width="0.1524" layer="91"/>
-<label x="147.32" y="48.26" size="1.778" layer="95" rot="R90"/>
-</segment>
 </net>
 <net name="OSC_OUT" class="0">
 <segment>
 <pinref part="STM" gate="G$1" pin="PF1-OSC_OUT"/>
 <wire x1="78.74" y1="134.62" x2="68.58" y2="134.62" width="0.1524" layer="91"/>
 <label x="53.34" y="134.62" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="137.16" y1="45.72" x2="137.16" y2="50.8" width="0.1524" layer="91"/>
-<label x="137.16" y="48.26" size="1.778" layer="95" rot="R90"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="Y1" gate="G$1" pin="1"/>
-<pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="137.16" y1="33.02" x2="137.16" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="C7" gate="G$1" pin="1"/>
-<wire x1="137.16" y1="27.94" x2="137.16" y2="33.02" width="0.1524" layer="91"/>
-<junction x="137.16" y="33.02"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="Y1" gate="G$1" pin="2"/>
-<pinref part="R9" gate="G$1" pin="1"/>
-<wire x1="147.32" y1="33.02" x2="147.32" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="C8" gate="G$1" pin="1"/>
-<wire x1="147.32" y1="27.94" x2="147.32" y2="33.02" width="0.1524" layer="91"/>
-<junction x="147.32" y="33.02"/>
 </segment>
 </net>
 <net name="N$2" class="0">
